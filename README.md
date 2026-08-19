@@ -38,10 +38,11 @@ The public sees the rope. The gate mechanism stays private.
 
 ## Navigation
 
-- [Glossary](./glossary/index.md) — 15 canonical terms
-- [Search Evolution Timeline](./search-evolution.md) — Full timeline + JSON
+- [Glossary](./glossary/index.md) — 15 canonical terms (dual format: JSON-LD + Markdown)
+- [Search Evolution Timeline](./search-evolution.md) — Chapter Zero narrative + `search-evolution.json`
 - [I3 System Overview](./i3-system/README.md) — Canonical definition
-- [Validation Summary](./validation/README.md) — FutureHouse/Edison validation
+- [Validation: Backed by Science](./validation/README.md) — FutureHouse/Edison validation
+- [Editorial Standards](./editorial-standards.md) — Truth and accuracy protocol
 
 ---
 
