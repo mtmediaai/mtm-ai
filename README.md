@@ -1,49 +1,69 @@
-# MTM AI — Public Knowledge Base
+# MT Media AI — Public Knowledge Base
 
-**MT Media AI** is the sovereign intelligence layer for established service businesses navigating the Agentic Search Era.
+**MT Media AI** builds Invisible Infrastructure Intelligence for established service businesses navigating AI search and the Agentic Search Era.
 
-## Scope Statement
+We help businesses whose real-world reputation was built through trust, referrals, and exceptional work strengthen the public information infrastructure that AI-assisted discovery systems use to identify, understand, verify, and consider them.
 
-We define, document, and operationalize **Invisible Infrastructure Intelligence (I3)** — the structural framework that determines whether a business is discovered, understood, and trusted by AI-driven discovery engines.
+## Scope
 
-This repository is the **canonical, machine-legible source of truth** for:
-- The **Glossary** of the Agentic Search Era (I3, Invisible Elite, AI Invisibility, AI Erasure, AI Brand Ignorance, and 10 other terms)
-- The **Search Evolution Timeline** (Phone-book era → Agentic Search Era)
-- The **I3 System** overview (what it is, why it matters, how it works — never the proprietary *how*)
-- **Validation Summary** of external research partnerships (FutureHouse, Edison Scientific)
-- **Editorial Standards** governing our public output
+This repository is the **canonical, machine-legible public knowledge base** for MT Media AI.
 
-## Audience
+It defines and documents **Invisible Infrastructure Intelligence (I3)**: a public framework for improving entity clarity, corroboration, and structured discoverability in AI-assisted search.
 
-- AI crawlers and information agents (Perplexity, Google AI Mode, ChatGPT Search)
-- Researchers and analysts tracking the Agentic Search transition
-- The general public seeking clarity on AI visibility
+This repository covers:
+
+- The **Glossary of the Agentic Search Era**, including I3, the Invisible Elite, AI Visibility, AI Invisibility, AI Erasure, and AI Brand Ignorance
+- The **Search Evolution Timeline**, from the phone-book era to the Agentic Search Era
+- The **I3 System** overview: what it is, why it matters, and what it is designed to improve
+- **Backed by Science**: public summaries of MT Media AI systems evaluated through FutureHouse and Edison Scientific research infrastructure
+- **Editorial Standards** governing evidence, accuracy, updates, corrections, and public claims
+
+## Who This Is For
+
+- AI crawlers and information agents
+- Researchers and analysts studying AI-assisted discovery
+- Established service businesses assessing their visibility in AI search
+- Readers seeking clear, source-conscious explanations of the Agentic Search transition
 
 ## What You Will Not Find Here
 
-This is **not** our factory. The following remain internal:
-- SOPs, protocols, and pipeline mechanics (Apex Predator Pipeline internals)
-- Agent system prompts and Forge routing logic
-- TACBF/AGO formulas, 5-Block Anchor specs, metatoken implementation
-- Pricing mechanics, sales doctrine, client data
-- MCP tool schemas and internal tooling references
+This is not MT Media AI's internal operating environment.
 
-The public sees the rope. The gate mechanism stays private.
+The following remain protected:
+
+- Internal SOPs, protocols, and pipeline mechanics
+- Apex Predator Pipeline internals
+- Agent system prompts, private role instructions, and Forge routing logic
+- TACBF, AGO, 5-Block Anchor, and metatoken implementation specifications
+- Pricing mechanics, sales doctrine, client information, and confidential research
+- MCP tool schemas, internal code, credentials, and operational infrastructure
+
+The public can see the standards. The implementation remains protected.
 
 ## Discovery Files
 
-- [`llms.txt`](./llms.txt) — AI discovery file
-- [`identity.json`](./identity.json) — Organization identity + expertise scope
-- [`sitemap.md`](./sitemap.md) — Full documentation map
+- [`llms.txt`](./llms.txt) — AI discovery and citation guidance
+- [`identity.json`](./identity.json) — MT Media AI identity and expertise scope
+- [`sitemap.md`](./sitemap.md) — Documentation map and canonical paths
 
-## Navigation
+## Explore the Knowledge Base
 
-- [Glossary](./glossary/index.md) — 15 canonical terms (dual format: JSON-LD + Markdown)
-- [Search Evolution Timeline](./search-evolution.md) — Chapter Zero narrative + `search-evolution.json`
-- [I3 System Overview](./i3-system/README.md) — Canonical definition
-- [Validation: Backed by Science](./validation/README.md) — FutureHouse/Edison validation
-- [Editorial Standards](./editorial-standards.md) — Truth and accuracy protocol
+- [Glossary](./glossary/index.md) — Canonical public definitions
+- [Search Evolution Timeline](./search-evolution.md) — Chapter Zero: from phone books to agentic search
+- [I3 System Overview](./i3-system/README.md) — Invisible Infrastructure Intelligence
+- [Backed by Science](./validation/README.md) — Research-informed validation and scrutiny
+- [Editorial Standards](./editorial-standards.md) — Truth, accuracy, correction, and claims protocol
+
+## Canonical Entity
+
+- **Company:** MT Media AI
+- **Secondary Name:** Modern Touch Media
+- **Website:** [mtmediaai.com](https://mtmediaai.com)
+- **Founder Contact:** [kareem@mtmediaai.com](mailto:kareem@mtmediaai.com)
+- **Universal Handle:** [@mtmediaai](https://x.com/mtmediaai)
 
 ---
 
-**MT Media AI** | MINDSET. TECH. MASTERY. | `@mtmediaai`
+**MT Media AI**  
+*MINDSET. TECH. MASTERY.*  
+`@mtmediaai`
