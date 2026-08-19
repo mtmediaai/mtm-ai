@@ -1,0 +1,100 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Search Evolution Timeline",
+  "description": "MTM's canonical timeline of search evolution from phone book to Agentic Search Era, with first-party MTM observation waypoints.",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "date": "1998-2001",
+      "event": "Early Google, PageRank",
+      "category": "Algorithmic Foundation",
+      "impact": "Links became the organizing layer of the web",
+      "mtm_observation": false
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "date": "2011",
+      "event": "Panda Update",
+      "category": "Quality Update",
+      "impact": "Content quality over volume; thin content penalized",
+      "mtm_observation": false
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "date": "2012",
+      "event": "Penguin Update",
+      "category": "Spam Update",
+      "impact": "Link spam penalized; credibility earned, not built",
+      "mtm_observation": false
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "date": "2013",
+      "event": "Hummingbird Update",
+      "category": "Semantic Update",
+      "impact": "Conversational queries understood; intent over keywords",
+      "mtm_observation": false
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "date": "2015",
+      "event": "RankBrain",
+      "category": "ML Interpretation",
+      "impact": "Machine learning for query interpretation",
+      "mtm_observation": false
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "date": "2015-2016",
+      "event": "Mobile-First Indexing",
+      "category": "Platform Shift",
+      "impact": "Speed and mobile usability become ranking factors",
+      "mtm_observation": false
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "date": "2019",
+      "event": "BERT",
+      "category": "Language Understanding",
+      "impact": "Contextual language understanding; nuance parsed",
+      "mtm_observation": false
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "date": "2020-2022",
+      "event": "Core Updates, E-E-A-T, Helpful Content",
+      "category": "Trust Framework",
+      "impact": "Expertise, Experience, Authoritativeness, Trustworthiness codified",
+      "mtm_observation": false
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "date": "2022",
+      "event": "Perplexity Launch",
+      "category": "Synthesis Paradigm",
+      "impact": "AI synthesis replaces link retrieval as dominant search paradigm",
+      "mtm_observation": true,
+      "mtm_note": "Signal visible: synthesis > retrieval. Began building entity infrastructure for Invisible Elite clients."
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "date": "2026-05-19",
+      "event": "Google I/O 2026 — AI Mode Default",
+      "category": "Inflection Point",
+      "impact": "Agentic Search Era begins; 1B+ users default to AI synthesis",
+      "mtm_observation": true,
+      "mtm_note": "Inflection confirmed: Agentic Search Era begins. All canonical knowledge assets updated. I3 framework operationalized."
+    }
+  ]
+}

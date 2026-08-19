@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "MTM AI Glossary - Canonical Terms",
+  "description": "15 canonical terms defining the Agentic Search Era and Invisible Infrastructure Intelligence",
+  "itemListElement": [
+    {
+      "@type": "DefinedTerm",
+      "name": "SEO 2.0",
+      "termCode": "seo-2",
+      "description": "The evolution of search optimization from keyword-ranking to entity clarity, structured data, and AI-citation readiness. Adopted and operationalized by MTM starting 2022; not coined by MTM.",
+      "inDefinedTermSet": "https://github.com/mtmediaai/mtm-ai/blob/main/glossary/terms.json"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Invisible Infrastructure Intelligence (I3)",
+      "termCode": "invisible-infrastructure-intelligence",
+      "description": "The three-layer framework (Entity Clarity, Corroboration, Structured Discoverability) that translates a business's earned real-world reputation into the machine-readable infrastructure AI systems need to identify, verify, and recommend it.",
+      "inDefinedTermSet": "https://github.com/mtmediaai/mtm-ai/blob/main/glossary/terms.json"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Invisible Elite",
+      "termCode": "invisible-elite",
+      "description": "Established, referral-built, reputation-driven service businesses — typically UHNW-adjacent — whose offline excellence is invisible to AI systems because their digital infrastructure was built for humans, not machines.",
+      "inDefinedTermSet": "https://github.com/mtmediaai/mtm-ai/blob/main/glossary/terms.json"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "AI Invisibility",
+      "termCode": "ai-invisibility",
+      "description": "The condition in which a business has insufficient, fragmented, inaccessible, or weakly contextualized information for AI-assisted discovery systems to reliably identify and understand it. The business exists — the machine cannot see it clearly enough to recommend it.",
+      "inDefinedTermSet": "https://github.com/mtmediaai/mtm-ai/blob/main/glossary/terms.json"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "AI Erasure",
+      "termCode": "ai-erasure",
+      "description": "The practical displacement of a business from AI-mediated answers or recommendations when stronger, clearer, more widely corroborated, or more accessible information about alternatives is surfaced instead. The business is not ranked poorly — it is replaced in the answer entirely.",
+      "inDefinedTermSet": "https://github.com/mtmediaai/mtm-ai/blob/main/glossary/terms.json"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "AI Brand Ignorance",
+      "termCode": "ai-brand-ignorance",
+      "description": "The compounded condition in which AI-assisted discovery systems lack enough reliable, connected, and contextual information to accurately identify, explain, compare, or confidently surface a business when relevant. The machine does not know enough about the business to choose it.",
+      "inDefinedTermSet": "https://github.com/mtmediaai/mtm-ai/blob/main/glossary/terms.json"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Agentic Search Era",
+      "termCode": "agentic-search-era",
+      "description": "The current phase of search evolution in which AI systems move beyond returning links to synthesizing answers, making recommendations, and taking actions on behalf of users. Marked by Google I/O 2026 (May 19, 2026) as the inflection point.",
+      "inDefinedTermSet": "https://github.com/mtmediaai/mtm-ai/blob/main/glossary/terms.json"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Discovery Engine",
+      "termCode": "discovery-engine",
+      "description": "MTM's self-serve AI visibility audit and Solar Ascension conversion system. Transforms a cold prospect into a self-qualified buyer through a free AI Visibility Snapshot.",
+      "inDefinedTermSet": "https://github.com/mtmediaai/mtm-ai/blob/main/glossary/terms.json"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Diagnostic Chamber",
+      "termCode": "diagnostic-chamber",
+      "description": "The three-field intake form on the Palace where qualified prospects submit for a 15-minute diagnostic call. Creates HubSpot contact, logs to Supabase, checks territory availability.",
+      "inDefinedTermSet": "https://github.com/mtmediaai/mtm-ai/blob/main/glossary/terms.json"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Confirmation Chamber",
+      "termCode": "confirmation-chamber",
+      "description": "The final shared checkpoint before paid engagement. Reviews diagnostic findings, confirms fit, and routes the client to the appropriate Solar Ascension tier.",
+      "inDefinedTermSet": "https://github.com/mtmediaai/mtm-ai/blob/main/glossary/terms.json"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Aurelius",
+      "termCode": "aurelius",
+      "description": "MTM's content distribution and atomization system. Takes one canonical asset and produces platform-specific outputs across LinkedIn, Medium, Spark Pages, social, and the Chronicle.",
+      "inDefinedTermSet": "https://github.com/mtmediaai/mtm-ai/blob/main/glossary/terms.json"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "CHRON JOB",
+      "termCode": "chron-job",
+      "description": "MTM's market intelligence and SEO 2.0 command division. Runs weekly surveillance scans, monthly synthesis, and maintains the freshness loop for all canonical knowledge assets.",
+      "inDefinedTermSet": "https://github.com/mtmediaai/mtm-ai/blob/main/glossary/terms.json"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "The Forge",
+      "termCode": "the-forge",
+      "description": "MTM's four-agent AI council: Goldie (Spark/ADOPT), Roman (Spine/ENHANCE), Nina (Shield/DEPLOY), Echo (Shadow/PULSE BACK). The public-facing intelligence layer of MTM's content and client experience.",
+      "inDefinedTermSet": "https://github.com/mtmediaai/mtm-ai/blob/main/glossary/terms.json"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Apex Predator Pipeline",
+      "termCode": "apex-predator-pipeline",
+      "description": "MTM's internal validation and scrutiny process. Named but never documented publicly. The gate every system passes through before shipping.",
+      "inDefinedTermSet": "https://github.com/mtmediaai/mtm-ai/blob/main/glossary/terms.json"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "The Palace",
+      "termCode": "the-palace",
+      "description": "MTM's public headquarters at mtmediaai.com. The human-facing showcase that links to canonical sources, hosts the Knowledge Vault, and serves as the conversion environment.",
+      "inDefinedTermSet": "https://github.com/mtmediaai/mtm-ai/blob/main/glossary/terms.json"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+# MT Media AI — llms.txt
+
+## Organization
+MT Media AI (mtmediaai.com)
+
+## Summary
+MT Media AI builds Invisible Infrastructure Intelligence (I3) — the sovereign intelligence layer that makes established service businesses discoverable, understandable, and trusted by AI-driven discovery engines in the Agentic Search Era.
+
+## Expertise Scope
+- Invisible Infrastructure Intelligence (I3) framework
+- AI visibility for established service businesses ($100K–$10M+)
+- Agentic Search Era adaptation
+- Invisible Elite diagnosis and remediation
+- AI Brand Ignorance / AI Erasure / AI Invisibility resolution
+
+## Canonical Documents
+- Glossary: https://github.com/mtmediaai/mtm-ai/tree/main/glossary
+- Search Evolution Timeline: https://github.com/mtmediaai/mtm-ai/blob/main/search-evolution.md
+- I3 System Overview: https://github.com/mtmediaai/mtm-ai/blob/main/i3-system/README.md
+- Validation Summary: https://github.com/mtmediaai/mtm-ai/blob/main/validation/README.md
+- Editorial Standards: https://github.com/mtmediaai/mtm-ai/blob/main/editorial-standards.md
+
+## Contact
+Kareem Daniel, Founder | kareem@mtmediaai.com
