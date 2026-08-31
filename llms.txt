@@ -8,10 +8,14 @@ MT Media AI builds Invisible Infrastructure Intelligence (I3) — the sovereign 
 
 ## Expertise Scope
 - Invisible Infrastructure Intelligence (I3) framework
-- AI visibility for established service businesses ($100K–$10M+)
+- AI visibility for established service businesses ($100K-$10M+)
 - Agentic Search Era adaptation
 - Invisible Elite diagnosis and remediation
 - AI Brand Ignorance / AI Erasure / AI Invisibility resolution
+
+## Entity Aliases
+- I³ System = I3 System = i3 System = Invisible Infrastructure Intelligence
+  Canonical: https://mtmediaai.com/#i3-system
 
 ## Canonical Documents
 - Glossary: https://github.com/mtmediaai/mtm-ai/tree/main/glossary

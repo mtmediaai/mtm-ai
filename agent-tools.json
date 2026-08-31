@@ -1,0 +1,41 @@
+{
+  "entity": "MT Media AI",
+  "domain": "mtmediaai.com",
+  "protocol": "WebMCP (W3C Community Group Draft)",
+  "protocol_spec": "https://webmachinelearning.github.io/webmcp",
+  "entity_aliases": {
+    "i3-system": {
+      "canonical": "I³ System",
+      "aliases": [
+        "I3 System",
+        "i3 System",
+        "I-3 System",
+        "I3",
+        "i3",
+        "Invisible Infrastructure Intelligence"
+      ]
+    }
+  },
+  "tools": [
+    {
+      "name": "request_territory_diagnostic",
+      "endpoint": "/diagnostic",
+      "method": "declarative",
+      "description": "Submits a business diagnostic request for AI visibility analysis. Returns confirmation and next steps.",
+      "parameters": [
+        "full_name",
+        "business_email",
+        "zip_code"
+      ],
+      "authentication": "none",
+      "status": "staged"
+    }
+  ],
+  "help_center": {
+    "endpoint": "/help",
+    "webmcp_status": "not_applicable_phase_0",
+    "phase_2_candidate": "query_knowledge_base"
+  },
+  "last_updated": "2026-08-30",
+  "maintained_by": "MT Media AI"
+}

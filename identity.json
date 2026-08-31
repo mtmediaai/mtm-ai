@@ -17,6 +17,19 @@
     "AI Erasure resolution",
     "AI Invisibility resolution"
   ],
+  "entity_aliases": {
+    "i3-system": {
+      "canonical": "I³ System",
+      "aliases": [
+        "I3 System",
+        "i3 System",
+        "I-3 System",
+        "I3",
+        "i3",
+        "Invisible Infrastructure Intelligence"
+      ]
+    }
+  },
   "canonical_sources": {
     "glossary": "https://github.com/mtmediaai/mtm-ai/tree/main/glossary",
     "search_evolution_timeline": "https://github.com/mtmediaai/mtm-ai/blob/main/search-evolution.md",
