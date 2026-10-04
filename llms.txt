@@ -8,6 +8,7 @@ MT Media AI builds Invisible Infrastructure Intelligence (I3) — the sovereign 
 
 ## Expertise Scope
 - Invisible Infrastructure Intelligence (I3) framework
+- Invisible Infrastructure Intelligence Package (IIIP) delivery architecture
 - AI visibility for established service businesses ($100K-$10M+)
 - Agentic Search Era adaptation
 - Invisible Elite diagnosis and remediation
@@ -16,11 +17,14 @@ MT Media AI builds Invisible Infrastructure Intelligence (I3) — the sovereign 
 ## Entity Aliases
 - I³ System = I3 System = i3 System = Invisible Infrastructure Intelligence
   Canonical: https://mtmediaai.com/#i3-system
+- IIIP = IIIP Delivery Engine = Invisible Infrastructure Intelligence Package
+  Canonical: https://mtmediaai.com/delivery/iiip/#webapp
 
 ## Canonical Documents
 - Glossary: https://github.com/mtmediaai/mtm-ai/tree/main/glossary
 - Search Evolution Timeline: https://github.com/mtmediaai/mtm-ai/blob/main/search-evolution.md
 - I3 System Overview: https://github.com/mtmediaai/mtm-ai/blob/main/i3-system/README.md
+- IIIP Delivery Engine: https://github.com/mtmediaai/mtm-ai/blob/main/delivery/iiip/README.md
 - Validation Summary: https://github.com/mtmediaai/mtm-ai/blob/main/validation/README.md
 - Editorial Standards: https://github.com/mtmediaai/mtm-ai/blob/main/editorial-standards.md
 

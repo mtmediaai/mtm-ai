@@ -1,0 +1,40 @@
+# 🔱 MT Media AI - Sovereign Crawler & Agent Access Policy
+# Protocol: SEAL 3.5 / AEDPS-v3 Active | Universal Orchestrator: Axiom
+User-agent: *
+Allow: /delivery/iiip/
+Allow: /api/iiip/schema
+Disallow: /api/
+
+# Authoritative AI Crawlers & LLM Retrieval Pipelines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+Sitemap: https://mtmediaai.com/sitemap.xml
+Sitemap: http://127.0.0.1:8721/sitemap.xml

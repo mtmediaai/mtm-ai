@@ -10,6 +10,7 @@
   },
   "expertise": [
     "Invisible Infrastructure Intelligence (I3)",
+    "Invisible Infrastructure Intelligence Package (IIIP)",
     "AI visibility for established service businesses",
     "Agentic Search Era adaptation",
     "Invisible Elite diagnosis",
@@ -28,12 +29,22 @@
         "i3",
         "Invisible Infrastructure Intelligence"
       ]
+    },
+    "iiip-delivery-engine": {
+      "canonical": "IIIP Delivery Engine",
+      "aliases": [
+        "IIIP",
+        "Invisible Infrastructure Intelligence Package",
+        "IIIP Delivery System",
+        "Sovereign IIIP Engine"
+      ]
     }
   },
   "canonical_sources": {
     "glossary": "https://github.com/mtmediaai/mtm-ai/tree/main/glossary",
     "search_evolution_timeline": "https://github.com/mtmediaai/mtm-ai/blob/main/search-evolution.md",
     "i3_system": "https://github.com/mtmediaai/mtm-ai/blob/main/i3-system/README.md",
+    "iiip_delivery_engine": "https://github.com/mtmediaai/mtm-ai/blob/main/delivery/iiip/README.md",
     "validation_summary": "https://github.com/mtmediaai/mtm-ai/blob/main/validation/README.md",
     "editorial_standards": "https://github.com/mtmediaai/mtm-ai/blob/main/editorial-standards.md"
   },
@@ -53,6 +64,6 @@
     "https://mtmediaai.com",
     "https://x.com/mtmediaai"
   ],
-  "version": "1.1",
-  "last_updated": "2026-08-18"
+  "version": "1.2",
+  "last_updated": "2026-10-04"
 }

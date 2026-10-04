@@ -1,0 +1,490 @@
+{
+  "system": {
+    "version": "6.0.0",
+    "classification": "Confidential Review"
+  },
+  "prospect": {
+    "companyName": "The Sovereign Group",
+    "executiveName": "Margaret Ellison",
+    "firstName": "Margaret",
+    "executiveTitle": "Senior Managing Director",
+    "industryVector": "Estate Advisory and Luxury Construction",
+    "currentValuation": "Established Regional Leader",
+    "targetValuationVector": "First Choice Authority",
+    "territory": "Primary Regional Corridor",
+    "accountLead": "Kareem Daniel",
+    "logoUrl": "",
+    "vitals": [
+      {
+        "label": "Field of Practice",
+        "value": "Estate Advisory and Luxury Construction",
+        "note": "The specialty your reputation was built on over decades of referred work."
+      },
+      {
+        "label": "Standing Today",
+        "value": "Established Regional Leader",
+        "note": "Recognized by clients and peers, yet largely unreadable to the answer engines they now ask first."
+      },
+      {
+        "label": "Standing Available",
+        "value": "First Choice Authority",
+        "note": "The position open to you once your credentials are written in a format these systems can read."
+      },
+      {
+        "label": "Corridor Scope",
+        "value": "Primary Regional Corridor",
+        "note": "The territory held under your reservation. One principal and three non competing specialists, no more."
+      },
+      {
+        "label": "Searches Missing You",
+        "value": "Roughly 74 of every 100",
+        "note": "Qualified local queries where a competitor is named and your firm is not mentioned at all."
+      },
+      {
+        "label": "Prepared By",
+        "value": "Kareem Daniel, MT Media AI",
+        "note": "Your direct point of contact. Every message reaches me, not a queue."
+      }
+    ]
+  },
+  "refusalClock": {
+    "refusalWindowDays": 14,
+    "targetDeadlineISO": "auto",
+    "urgencyThresholdHours": 48,
+    "statusLabel": "Exclusive Hold Active",
+    "legalTerm": "Regional territory protection",
+    "storageKey": "iiip.reservation.sovereign01"
+  },
+  "visualSnapshot": {
+    "sectionTitle": "Modern Agentic Search",
+    "sectionEyebrow": "The Shift From Blue Links to Direct Answers",
+    "sectionSubtitle": "Traditional search engines recorded where your website sat in a directory. Modern conversational search tools read structured data to decide who to recommend. These five findings explain why established offline reputations are being passed over by the answer engines your clients now use every day.",
+    "items": [
+      {
+        "gridSpan": "col-span-2 row-span-2",
+        "tag": "Primary Benchmark",
+        "badge": "Discovery Divide 74%",
+        "title": "The Direct Answer Opportunity",
+        "description": "How often modern conversational search tools name a firm when qualified local buyers ask for the most reliable provider in a given area.",
+        "imageUrl": "assets/bento-carousel-1.webp",
+        "carouselImages": [
+          {
+            "url": "assets/bento-carousel-1.webp",
+            "title": "Data Discovery Divide",
+            "stat": "74% AI Advantage",
+            "subtitle": "Direct AI Answer Engines vs Traditional Search",
+            "alt": "Data Discovery Divide telemetry graph illustrating the 74% structural gap between direct AI conversational answers and traditional organic search placements."
+          },
+          {
+            "url": "assets/bento-carousel-2.webp",
+            "title": "AI Citation Analysis",
+            "stat": "8.2% to 74%",
+            "subtitle": "Direct Capture Impact via Structured Entity Grounding",
+            "alt": "Multi-engine citation analysis diagram detailing the 8.2% to 74% retrieval capture lift achieved through structured schema and entity authority grounding."
+          },
+          {
+            "url": "assets/bento-carousel-3.webp",
+            "title": "Regional Market Corridor",
+            "stat": "4.6x Noise Barrier",
+            "subtitle": "Territory Protection Ring & Competitor Noise Density",
+            "alt": "Regional market corridor density map modeling competitive noise barriers and the defensive perimeter protection ring for high-net-worth service districts."
+          }
+        ],
+        "metrics": [
+          {
+            "label": "Direct Recommendations",
+            "value": "8.2%",
+            "delta": "Untapped"
+          },
+          {
+            "label": "Traditional Placement",
+            "value": "Page 1",
+            "delta": "Verified"
+          },
+          {
+            "label": "Competitor Noise",
+            "value": "4.6x",
+            "delta": "Active"
+          }
+        ],
+        "deepDive": "When a client asks an assistant to recommend the top specialist in a market, the system does not browse standard web pages. It looks for clear, verified data records. Most established firms have focused on running excellent physical operations, so this quiet data layer was never assembled."
+      },
+      {
+        "gridSpan": "col-span-1 row-span-1",
+        "tag": "Market Habits",
+        "badge": "67% of Inquiries",
+        "title": "How High End Clients Search Today",
+        "description": "Private clients and corporate executives have quietly moved from standard search bars into direct answer assistants.",
+        "imageUrl": "assets/modern-agentic-search-buyer-habits.webp",
+        "imageAlt": "Conversational inquiry telemetry chart showing 67% of luxury advisory buyers conducting zero-click evaluations directly inside AI answer engines.",
+        "metrics": [
+          {
+            "label": "Ending On Screen",
+            "value": "69%",
+            "delta": "Market Average"
+          },
+          {
+            "label": "Conversational Queries",
+            "value": "67%",
+            "delta": "Up 42% Yearly"
+          }
+        ],
+        "deepDive": "Most high value searches now conclude without the buyer visiting an external web page. They read the summary on screen and decide there. A traditional website is a fine foundation, but modern systems need machine readable context to surface a business inside those summaries."
+      },
+      {
+        "gridSpan": "col-span-1 row-span-1",
+        "tag": "Record Clarity",
+        "badge": "Commonly Overlooked",
+        "title": "Making Credentials Legible",
+        "description": "How accurately modern systems recognize awards, state registrations, and regional credentials rather than confusing one firm with another.",
+        "imageUrl": "assets/modern-agentic-search-record-clarity.webp",
+        "imageAlt": "Crystalline knowledge graph entity resolution matrix demonstrating machine-verified credential alignment and cross-registry disambiguation.",
+        "metrics": [
+          {
+            "label": "Typical Clarity Score",
+            "value": "24 of 100",
+            "delta": "Needs Attention"
+          },
+          {
+            "label": "Registry Alignment",
+            "value": "Unlinked",
+            "delta": "Action Ready"
+          }
+        ],
+        "deepDive": "Modern search tools operate on certainty. If a track record, client honors, and service footprint are not written in their language, they stay silent and recommend whoever provides clearer data."
+      },
+      {
+        "gridSpan": "col-span-1 row-span-1",
+        "tag": "Local Integrity",
+        "badge": "60 Day Window",
+        "title": "Protecting the Regional Corridor",
+        "description": "The rate at which competing firms are noticing conversational search and claiming priority standing in a district.",
+        "imageUrl": "assets/modern-agentic-search-corridor-integrity.webp",
+        "imageAlt": "Spatial territory defense radar displaying competitive perimeter locks and regional corridor market share preservation over 60-day windows.",
+        "metrics": [
+          {
+            "label": "Redirected Work",
+            "value": "$140,000+",
+            "delta": "Monthly Opportunity"
+          },
+          {
+            "label": "Reserve Window",
+            "value": "Under 60 Days",
+            "delta": "First Mover"
+          }
+        ],
+        "deepDive": "Once a neighboring business establishes itself as the primary recommendation in a district, unseating them takes considerable effort. Claiming the position early is far simpler and protects the territory for years."
+      },
+      {
+        "gridSpan": "col-span-2 row-span-1",
+        "tag": "Our Approach",
+        "badge": "Ready To Install",
+        "title": "The Invisible Infrastructure Roadmap",
+        "description": "A four stage plan that translates offline standing into clean, machine first signals across every modern search engine.",
+        "imageUrl": "assets/modern-agentic-search-roadmap.webp",
+        "imageAlt": "Invisible Infrastructure technical deployment roadmap detailing the four-stage sovereign architecture pipeline from entity compilation to citation sealing.",
+        "metrics": [
+          {
+            "label": "Entity Architecture",
+            "value": "Compiled",
+            "delta": "Complete"
+          },
+          {
+            "label": "Quiet Installation",
+            "value": "Standby",
+            "delta": "Zero Friction"
+          },
+          {
+            "label": "Territory Protection",
+            "value": "Locked",
+            "delta": "Guaranteed"
+          }
+        ],
+        "deepDive": "This requires no disruption to your daily routine, your existing website, or your marketing partners. We install a quiet data layer behind the scenes while you and your team stay focused on serving clients."
+      }
+    ]
+  },
+  "personalizedSnapshot": {
+    "eyebrow": "A Visual Record of What We Found",
+    "capturedAt": "auto",
+    "intro": "This snapshot reflects how modern search engines described your firm at the time of capture, just before delivery. It is yours to keep and share.",
+    "imageUrl": "assets/sovereign-group-ai-visibility-snapshot.webp",
+    "fileName": "sovereign-group-ai-visibility-snapshot.webp"
+  },
+  "audioBriefing": {
+    "sectionTitle": "Your Audio Briefing",
+    "sectionEyebrow": "A Personal Walkthrough",
+    "sectionSubtitle": "A short, conversational explanation of what we found and what it means, recorded for you. Listen whenever your schedule allows.",
+    "speaker": "The Forge",
+    "speakerRole": "MT Media AI",
+    "trackTitle": "Welcome to Your Strategic Overview",
+    "classification": "Confidential Briefing",
+    "audioUrl": "",
+    "totalDurationSec": 482,
+    "chapters": [
+      {
+        "timeSec": 0,
+        "title": "Welcome and recognition of your track record"
+      },
+      {
+        "timeSec": 98,
+        "title": "How search engines changed shape"
+      },
+      {
+        "timeSec": 235,
+        "title": "Where qualified local clients are looking"
+      },
+      {
+        "timeSec": 370,
+        "title": "How we help you protect your market"
+      }
+    ],
+    "noteTitle": "A Personal Note",
+    "personalNote": [
+      "Hello {{addressee}}. You have spent years earning trust across {{territory}}, and that reputation is the reason this review exists. Nothing about how {{company}} operates is broken. The way people find firms like yours has changed shape, and the findings above show exactly where that leaves you as of {{capturedDate}}.",
+      "Take your time with this. Listen on your own schedule, and if anything raises a question, I am one message away."
+    ],
+    "noteSignature": "Kareem Daniel | Founder | MT Media AI",
+    "noteCtaLabel": "Connect with me on LinkedIn",
+    "noteCtaUrl": "https://www.linkedin.com/in/kareemdaniel/",
+    "transcriptHeading": "Ask your favorite AI about this briefing",
+    "transcriptCopy": "Download the transcript and drop it into ChatGPT, Claude, Gemini, or Perplexity. Ask it to explain what matters most for {{company}}, to challenge the findings, or to turn them into a plan. A few minutes of questions will teach you more than a single listen, and everything stays in your hands.",
+    "transcript": [
+      "Hello {{addressee}}, and welcome. This briefing walks through what we found when we looked at how modern AI search tools describe {{company}}, as of {{capturedDate}}.",
+      "First, a word about your standing. Your reputation across {{territory}} was built the right way, through years of referred work and real results. Nothing about your operation is broken. The way people look for firms like yours has changed shape.",
+      "Today, a growing share of high value searches never reach a list of websites. Buyers ask an assistant who they should call, and the assistant answers from structured records it can read. Where those records are missing or unclear, it stays silent about the firm, or names a competitor instead.",
+      "That is the gap in your findings. Your real world authority is strong. Your machine readable record of it is not yet complete, and that is a fixable problem, not a verdict on your business.",
+      "We left the research open for you in the Ignition Hub. Ask it anything, follow every answer back to its source, and take as long as you like. There is no sales pressure attached to any of it.",
+      "When you are ready, reach out directly. Until then, keep this transcript, share it with the people you trust, and ask your favorite AI assistant to challenge it. The strongest findings hold up under questions."
+    ],
+    "transcriptHighlights": [
+      "Hello, and welcome. First, let me say that you have built a remarkable business. Your client relationships and real world reputation are second to none. Nothing about your operational excellence is broken. The search world simply changed its shape, and we are here to make sure your name receives the recognition it has rightfully earned."
+    ]
+  },
+  "ignitionHub": {
+    "sectionSubtitle": "Everything behind this review lives in one private notebook. Open it, ask it questions, follow every answer back to its original citation, and explore at your own pace. The notebook is read-only, so nothing in it can be changed.",
+    "hubHeading": "Ask It Anything",
+    "hubCopy": "Every source document, public record, and search result behind this review is loaded into one private notebook, exactly as it stood on {{capturedDate}}. Ask questions in natural language and receive answers grounded strictly in those sources, complete with citations you can click to verify the original passage.",
+    "capabilities": [
+      "Ask questions in plain language and get answers drawn only from your sources.",
+      "Open any citation to read the exact passage an answer came from.",
+      "Read the briefing doc, FAQ, and study guide already prepared for you.",
+      "Play the audio overview, or generate your own summaries and mind maps."
+    ],
+    "assurances": [
+      "Zero sales pressure",
+      "Read only, nothing to edit",
+      "At your own pace"
+    ],
+    "workspaceLabel": "Your notebook link",
+    "linkPendingLabel": "Link assigned upon delivery",
+    "launchLabel": "Open Your Ignition Hub",
+    "accessNote": "Opens in a new tab. Access the notebook with any Google account to review sources and ask natural language questions. The notebook is delivered as a read-only shareable link, so nothing you do there can alter the research.",
+    "offlineLabel": "Prefer not to sign in, or on a network that blocks it?",
+    "offlinePackLabel": "Download the complete data pack instead",
+    "offlineRequestLabel": "Request the offline data pack by email",
+    "geminiNotebookUrl": "https://notebook.google.com/notebook/6881deb7-8a5d-42b2-ac4f-16a186d161ae",
+    "offlinePackUrl": "",
+    "coreFour": {
+      "delta_dg": {
+        "symbol": "Demand Gap",
+        "title": "Untapped Inbound Demand",
+        "score": 94.8,
+        "max": 100,
+        "unit": "%",
+        "decimals": 1,
+        "status": "Open Potential",
+        "benchmarkValue": 41.2,
+        "benchmarkLabel": "Corridor median",
+        "varianceSuffix": "untapped",
+        "color": "#00E5FF",
+        "formula": "Share of qualified {{territory}} queries where a buyer is ready to hire but {{company}} is never named.",
+        "inputs": [
+          {
+            "label": "Buyer-ready queries tested",
+            "value": "74 of 100"
+          },
+          {
+            "label": "Queries naming {{company}}",
+            "value": "4 of 100"
+          },
+          {
+            "label": "Corridor median named",
+            "value": "41.2%"
+          }
+        ],
+        "description": "High value clients in your regional market who are ready to hire but end up calling a competitor, simply because modern search tools cannot read your full track record.",
+        "implication": "Room to reach ideal clients before competitors understand how conversational search works.",
+        "research": {
+          "sample": "100 live buyer queries",
+          "confidence": "High confidence",
+          "method": "Ran 100 buyer-phrased queries across modern answer engines on {{capturedDate}} and recorded every firm named.",
+          "sources": [
+            "Live query panel, 100 buyer-phrased prompts",
+            "Corridor median compiled from 12 peer firms"
+          ]
+        }
+      },
+      "aeri": {
+        "symbol": "Reputation",
+        "title": "Real World Authority",
+        "score": 88.4,
+        "max": 100,
+        "unit": "pts",
+        "decimals": 1,
+        "status": "Strong Foundation",
+        "benchmarkValue": 52.0,
+        "benchmarkLabel": "Corridor median",
+        "varianceSuffix": "above median",
+        "color": "#D4AF37",
+        "formula": "Referral strength, review depth, and years of standing for {{company}}, scored 0 to 100.",
+        "inputs": [
+          {
+            "label": "Referral mentions found",
+            "value": "63"
+          },
+          {
+            "label": "Review platforms with presence",
+            "value": "5 of 6"
+          },
+          {
+            "label": "Corridor median score",
+            "value": "52.0 pts"
+          }
+        ],
+        "description": "The tangible respect and referral loyalty you have earned through years of dedicated client service in your market.",
+        "implication": "Because the real foundation is already solid, translating it into modern formats creates a lasting advantage quickly.",
+        "research": {
+          "sample": "63 referral mentions reviewed",
+          "confidence": "High confidence",
+          "method": "Reviewed public referrals, reviews, and tenure signals for {{company}} against 12 corridor peers.",
+          "sources": [
+            "Public review and referral audit",
+            "Corridor peer set, 12 firms"
+          ]
+        }
+      },
+      "bspf": {
+        "symbol": "Ease of Fit",
+        "title": "Operational Alignment",
+        "score": 92.1,
+        "max": 100,
+        "unit": "%",
+        "decimals": 1,
+        "status": "Natural Harmony",
+        "benchmarkValue": 38.5,
+        "benchmarkLabel": "Corridor median",
+        "varianceSuffix": "better alignment",
+        "color": "#00E5FF",
+        "formula": "How much of the visibility fix installs without new software or workflow changes at {{company}}.",
+        "inputs": [
+          {
+            "label": "Fixes needing no new software",
+            "value": "11 of 12"
+          },
+          {
+            "label": "Staff hours required",
+            "value": "Under 2"
+          },
+          {
+            "label": "Corridor median alignment",
+            "value": "38.5%"
+          }
+        ],
+        "description": "How cleanly we can close the visibility gap without asking you or your staff to adopt new software or change how you run the business.",
+        "implication": "No friction. You stay focused on clients while we handle the technical alignment quietly.",
+        "research": {
+          "sample": "12-point operations checklist",
+          "confidence": "High confidence",
+          "method": "Mapped each required fix against how {{company}} already operates, based on the discovery review.",
+          "sources": [
+            "Operations discovery review",
+            "Fix inventory, 12 items"
+          ]
+        }
+      },
+      "epov": {
+        "symbol": "Pace",
+        "title": "Category Leadership Pace",
+        "score": 4.9,
+        "max": 5.0,
+        "unit": "x",
+        "decimals": 1,
+        "status": "Rapid Trajectory",
+        "benchmarkValue": 1.4,
+        "benchmarkLabel": "Corridor median",
+        "varianceSuffix": "faster",
+        "color": "#D4AF37",
+        "formula": "Projected speed to default-recommendation status for {{company}} once machine readable records go live.",
+        "inputs": [
+          {
+            "label": "Projected pace",
+            "value": "4.9x"
+          },
+          {
+            "label": "Corridor median pace",
+            "value": "1.4x"
+          },
+          {
+            "label": "Estimated window",
+            "value": "Under 6 months"
+          }
+        ],
+        "description": "How quickly your firm becomes the default recommendation across AI search assistants once your machine readable records are live.",
+        "implication": "Achieves in months what traditional advertising campaigns struggle to reach over years.",
+        "research": {
+          "sample": "Pace model, 3 prior rollouts",
+          "confidence": "Medium confidence",
+          "method": "Projected from three prior corridor rollouts with comparable starting authority.",
+          "sources": [
+            "Rollout pace model, 3 comparable corridors"
+          ]
+        }
+      }
+    },
+    "ctas": {
+      "primary": {
+        "label": "Authorize Stage One",
+        "action": "ENGAGEMENT_MODAL",
+        "description": "Give us the go ahead and we will quietly assemble your machine readable foundation."
+      },
+      "secondary": {
+        "label": "Reserve Window",
+        "action": "LOCK_REFUSAL",
+        "description": "Hold your position in the corridor while you take time to review everything."
+      },
+      "tertiary": {
+        "label": "Download Review",
+        "action": "DOWNLOAD_DOSSIER",
+        "description": "Save a clean copy of this full review for your own records."
+      }
+    }
+  },
+  "diagnosticReadings": {
+    "sectionTitle": "Your Diagnostic Readings",
+    "sectionEyebrow": "Measured From Your Own Corridor Data",
+    "sectionSubtitle": "Four measurements drawn directly from the research we completed for {{company}}. They cover the demand available right now, the reputation already earned, how easily this fits the current operation, and how quickly standing can be established. Select any reading for the full breakdown, including the numbers behind it.",
+    "capturedAt": "auto",
+    "researchId": "auto",
+    "methodologyNote": "Live queries plus public-record review",
+    "sourceCount": "5 cited sources",
+    "order": [
+      "delta_dg",
+      "aeri",
+      "bspf",
+      "epov"
+    ],
+    "emptyTitle": "Readings are being prepared",
+    "emptyCopy": "Research for this firm is still being compiled. Nothing here is estimated or borrowed from another prospect."
+  },
+  "reservation": {
+    "headline": "14 Day Priority Reservation Window",
+    "subheadline": "We hold a reservation for your firm in this territory. To keep the advantage meaningful, we work with only one leading principal and three non competing specialists per corridor. Take the next two weeks to review everything on your own schedule.",
+    "urgencyAlertText": "Courtesy notice. Your priority reservation window concludes in under 48 hours."
+  },
+  "disclaimer": {
+    "watermark": "Prepared exclusively for The Sovereign Group",
+    "notice": "This is an individually prepared review created by MT Media AI. The findings are grounded in verified regional search patterns observed at the time of research and represent honest operational observations rather than guarantees of future results.",
+    "preparedOn": "{{capturedDate}}"
+  }
+}

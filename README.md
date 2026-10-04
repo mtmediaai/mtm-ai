@@ -51,6 +51,7 @@ The public can see the standards. The implementation remains protected.
 - [Glossary](./glossary/index.md) — Canonical public definitions
 - [Search Evolution Timeline](./search-evolution.md) — Chapter Zero: from phone books to agentic search
 - [I3 System Overview](./i3-system/README.md) — Invisible Infrastructure Intelligence
+- [IIIP Delivery Engine](./delivery/iiip/README.md) — Invisible Infrastructure Intelligence Package (IIIP)
 - [Backed by Science](./validation/README.md) — Research-informed validation and scrutiny
 - [Editorial Standards](./editorial-standards.md) — Truth, accuracy, correction, and claims protocol
 

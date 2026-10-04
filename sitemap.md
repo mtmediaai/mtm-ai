@@ -12,6 +12,7 @@
 - [validation/forge-2026.md](./validation/forge-2026.md) — The Forge validation detail
 - [validation/rogue-2025.md](./validation/rogue-2025.md) — Rogue validation detail (archived)
 - [editorial-standards.md](./editorial-standards.md) — Truth and accuracy protocol
+- [delivery/iiip/README.md](./delivery/iiip/README.md) — Invisible Infrastructure Intelligence Package (IIIP) Delivery Engine
 
 ## Glossary
 - [glossary/index.md](./glossary/index.md) — Human index with status table
@@ -40,6 +41,7 @@
 | Glossary Registry | https://github.com/mtmediaai/mtm-ai/tree/main/glossary |
 | Search Evolution | https://github.com/mtmediaai/mtm-ai/blob/main/search-evolution.md |
 | I3 System | https://github.com/mtmediaai/mtm-ai/blob/main/i3-system/README.md |
+| IIIP Delivery Engine | https://github.com/mtmediaai/mtm-ai/blob/main/delivery/iiip/README.md |
 | Validation | https://github.com/mtmediaai/mtm-ai/blob/main/validation/README.md |
 | Editorial Standards | https://github.com/mtmediaai/mtm-ai/blob/main/editorial-standards.md |
 | llms.txt | https://github.com/mtmediaai/mtm-ai/blob/main/llms.txt |

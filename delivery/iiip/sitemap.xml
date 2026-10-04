@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://mtmediaai.com/delivery/iiip/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://mtmediaai.com/delivery/iiip/sovereign-group-ai-visibility-snapshot.webp</image:loc>
+      <image:title>Sovereign Group AI Visibility Snapshot &amp; Machine-Readable Evidence</image:title>
+      <image:caption>Visual demonstration of AI Brand Ignorance and Demand Gap ΔDG across major answer engines.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://127.0.0.1:8721/delivery/iiip/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
