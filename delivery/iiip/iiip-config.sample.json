@@ -66,28 +66,35 @@
         "badge": "Discovery Divide 74%",
         "title": "The Direct Answer Opportunity",
         "description": "How often modern conversational search tools name a firm when qualified local buyers ask for the most reliable provider in a given area.",
-        "imageUrl": "assets/bento-carousel-1.webp?v=4",
+        "imageUrl": "assets/bento-carousel-1.webp?v=6",
         "carouselImages": [
           {
-            "url": "assets/bento-carousel-1.webp?v=4",
-            "title": "Data Discovery Divide",
-            "stat": "74% AI Advantage",
-            "subtitle": "Direct AI Answer Engines vs Traditional Search",
-            "alt": "Data Discovery Divide telemetry graph illustrating the 74% structural gap between direct AI conversational answers and traditional organic search placements."
+            "url": "assets/bento-carousel-1.webp?v=6",
+            "title": "Elite in the Field, Invisible in the Feed",
+            "stat": "97/100 Offline vs 0% AI",
+            "subtitle": "AI Discovery Scan // LLM, AI Overview & GEO Omission",
+            "alt": "AI Discovery Scan telemetry dashboard illustrating the contrast between 97/100 offline authority and 0% AI overview confidence for elite estate service professionals."
           },
           {
-            "url": "assets/bento-carousel-2.webp?v=4",
-            "title": "AI Citation Analysis",
-            "stat": "8.2% to 74%",
-            "subtitle": "Direct Capture Impact via Structured Entity Grounding",
-            "alt": "Multi-engine citation analysis diagram detailing the 8.2% to 74% retrieval capture lift achieved through structured schema and entity authority grounding."
+            "url": "assets/bento-carousel-2.webp?v=6",
+            "title": "Making Master Credentials Legible",
+            "stat": "96/100 Ingest Ready",
+            "subtitle": "Listing History & Client Acclaim Machine Verification",
+            "alt": "Record Clarity master credential verification blueprint connecting verified listing history, authenticated client acclaim, and 3D architectural project models into machine-verifiable data."
           },
           {
-            "url": "assets/bento-carousel-3.webp?v=4",
-            "title": "Regional Market Corridor",
-            "stat": "4.6x Noise Barrier",
-            "subtitle": "Territory Protection Ring & Competitor Noise Density",
-            "alt": "Regional market corridor density map modeling competitive noise barriers and the defensive perimeter protection ring for high-net-worth service districts."
+            "url": "assets/bento-carousel-3.webp?v=6",
+            "title": "Strategic Local Asset & Corridor Map",
+            "stat": "1 Sun + 3 Kings Protected",
+            "subtitle": "Regional Defense Ring & First Mover Corridor Lock",
+            "alt": "Strategic local asset and corridor map illustrating prime node territory protection and neighboring commercial partner integration within a 60-day defensive window."
+          },
+          {
+            "url": "assets/bento-carousel-4.webp?v=6",
+            "title": "IIIP Infrastructure Deployment Roadmap",
+            "stat": "Zero Friction / Sovereign Lock",
+            "subtitle": "4-Stage Non-Disruptive Background Install",
+            "alt": "Four-stage sovereign infrastructure deployment roadmap diagram detailing authority schematics, knowledge graph grounding, quiet background installation, and sovereign authority lock."
           }
         ],
         "metrics": [
