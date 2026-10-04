@@ -3,18 +3,53 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://mtmediaai.com/delivery/iiip/</loc>
-    <lastmod>2026-10-03</lastmod>
+    <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://mtmediaai.com/delivery/iiip/sovereign-group-ai-visibility-snapshot.webp</image:loc>
-      <image:title>Sovereign Group AI Visibility Snapshot &amp; Machine-Readable Evidence</image:title>
+      <image:loc>https://raw.githubusercontent.com/mtmediaai/mtm-assets/main/iiip/sovereign-group-ai-visibility-snapshot.webp</image:loc>
+      <image:title>Sovereign Group AI Visibility Snapshot</image:title>
       <image:caption>Visual demonstration of AI Brand Ignorance and Demand Gap ΔDG across major answer engines.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/mtmediaai/mtm-assets/main/iiip/bento-carousel-1.webp</image:loc>
+      <image:title>Data Discovery Divide Benchmark</image:title>
+      <image:caption>Data Discovery Divide telemetry graph illustrating the 74% structural gap between direct AI conversational answers and traditional organic search placements.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/mtmediaai/mtm-assets/main/iiip/bento-carousel-2.webp</image:loc>
+      <image:title>AI Citation Analysis &amp; Grounding Flow</image:title>
+      <image:caption>Multi-engine citation analysis diagram detailing the 8.2% to 74% retrieval capture lift achieved through structured schema and entity authority grounding.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/mtmediaai/mtm-assets/main/iiip/bento-carousel-3.webp</image:loc>
+      <image:title>Regional Market Corridor Density &amp; Protection Ring</image:title>
+      <image:caption>Regional market corridor density map modeling competitive noise barriers and the defensive perimeter protection ring for high-net-worth service districts.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/mtmediaai/mtm-assets/main/iiip/modern-agentic-search-buyer-habits.webp</image:loc>
+      <image:title>Agentic Search Buyer Habits Telemetry</image:title>
+      <image:caption>Conversational inquiry telemetry chart showing 67% of luxury advisory buyers conducting zero-click evaluations directly inside AI answer engines.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/mtmediaai/mtm-assets/main/iiip/modern-agentic-search-record-clarity.webp</image:loc>
+      <image:title>Entity Record Clarity &amp; Registry Alignment Matrix</image:title>
+      <image:caption>Crystalline knowledge graph entity resolution matrix demonstrating machine-verified credential alignment and cross-registry disambiguation.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/mtmediaai/mtm-assets/main/iiip/modern-agentic-search-corridor-integrity.webp</image:loc>
+      <image:title>Territorial Corridor Integrity Radar</image:title>
+      <image:caption>Spatial territory defense radar displaying competitive perimeter locks and regional corridor market share preservation over 60-day windows.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/mtmediaai/mtm-assets/main/iiip/modern-agentic-search-roadmap.webp</image:loc>
+      <image:title>Invisible Infrastructure Roadmap Technical Pipeline</image:title>
+      <image:caption>Invisible Infrastructure technical deployment roadmap detailing the four-stage sovereign architecture pipeline from entity compilation to citation sealing.</image:caption>
     </image:image>
   </url>
   <url>
     <loc>http://127.0.0.1:8721/delivery/iiip/</loc>
-    <lastmod>2026-10-03</lastmod>
+    <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
