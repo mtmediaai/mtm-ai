@@ -20,9 +20,25 @@
     },
     {
       "@type": "DefinedTerm",
-      "name": "Invisible Elite",
+      "name": "The Invisible Elite",
+      "alternateName": [
+        "Estate-Level Service Providers",
+        "Estate-Level Professionals",
+        "Premium Service Providers (Estate Tier)"
+      ],
       "termCode": "invisible-elite",
-      "description": "Established, referral-built, reputation-driven service businesses — typically UHNW-adjacent — whose offline excellence is invisible to AI systems because their digital infrastructure was built for humans, not machines.",
+      "description": "A class of premium, founder-led service businesses whose real-world reputations were built on exceptional craft, referrals, and legacy trust, but whose digital presence is structurally insufficient for AI-era discovery. Coined by MT Media AI (Kareem Daniel).",
+      "inDefinedTermSet": "https://github.com/mtmediaai/mtm-ai/blob/main/glossary/terms.json"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Estate-Level Service Providers",
+      "alternateName": [
+        "The Invisible Elite",
+        "Estate-Level Professionals"
+      ],
+      "termCode": "estate-level-service-providers",
+      "description": "High-craft, founder-led service providers catering to ultra-high-net-worth estate properties and households. The operational unit member of The Invisible Elite.",
       "inDefinedTermSet": "https://github.com/mtmediaai/mtm-ai/blob/main/glossary/terms.json"
     },
     {

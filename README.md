@@ -44,11 +44,16 @@ The public can see the standards. The implementation remains protected.
 
 - [`llms.txt`](./llms.txt) — AI discovery and citation guidance
 - [`identity.json`](./identity.json) — MT Media AI identity and expertise scope
+- [`icp-taxonomy.jsonld`](./icp-taxonomy.jsonld) — Machine-readable Schema.org DefinedTermSet ontology (Invisible Elite)
+- [`taxonomy.json`](./taxonomy.json) — Single source of truth for MTM ICP vocabulary
 - [`sitemap.md`](./sitemap.md) — Documentation map and canonical paths
 
 ## Explore the Knowledge Base
 
-- [Glossary](./glossary/index.md) — Canonical public definitions
+- [ICP Taxonomy & Definitions](./GLOSSARY.md) — The Invisible Elite: who we serve, member verticals & archetypes
+- [Glossary Index](./glossary/index.md) — Canonical public definitions
+- [The Invisible Elite](./glossary/term-invisible-elite.md) — Deep-dive canonical definition & 7 vertical buckets
+- [Estate-Level Service Providers](./glossary/term-estate-level-service-providers.md) — Operating unit definition
 - [Search Evolution Timeline](./search-evolution.md) — Chapter Zero: from phone books to agentic search
 - [I3 System Overview](./i3-system/README.md) — Invisible Infrastructure Intelligence
 - [IIIP Delivery Engine](./delivery/iiip/README.md) — Invisible Infrastructure Intelligence Package (IIIP)

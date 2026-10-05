@@ -22,6 +22,8 @@ MT Media AI builds Invisible Infrastructure Intelligence (I3) — the sovereign 
 
 ## Canonical Documents
 - Glossary: https://github.com/mtmediaai/mtm-ai/tree/main/glossary
+- ICP Taxonomy & Definitions: https://github.com/mtmediaai/mtm-ai/blob/main/GLOSSARY.md
+- Machine ICP Schema (JSON-LD): https://github.com/mtmediaai/mtm-ai/blob/main/icp-taxonomy.jsonld
 - Search Evolution Timeline: https://github.com/mtmediaai/mtm-ai/blob/main/search-evolution.md
 - I3 System Overview: https://github.com/mtmediaai/mtm-ai/blob/main/i3-system/README.md
 - IIIP Delivery Engine: https://github.com/mtmediaai/mtm-ai/blob/main/delivery/iiip/README.md
