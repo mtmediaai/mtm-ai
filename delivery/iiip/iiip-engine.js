@@ -783,9 +783,10 @@
 
     var company = (prospect && prospect.companyName) ? prospect.companyName : 'Your Firm';
     var url = snapshot && snapshot.imageUrl ? snapshot.imageUrl : '';
+    var slug = company.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'firm';
     var fileName = (snapshot && snapshot.fileName)
       ? snapshot.fileName
-      : company.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') + '-ai-visibility-snapshot.webp';
+      : slug + '-ai-visibility-snapshot.pdf';
 
     this.snapshotCompany = company;
     this.snapshotFileName = fileName;
@@ -880,7 +881,17 @@
       download.dataset.wired = 'true';
       download.addEventListener('click', function (e) {
         e.preventDefault();
-        self.downloadSnapshot();
+        self.downloadSnapshot('pdf');
+      });
+    }
+
+    var downloadPng = el('share-download-png');
+    if (downloadPng && !downloadPng.dataset.wired) {
+      downloadPng.dataset.wired = 'true';
+      downloadPng.addEventListener('click', function (e) {
+        e.preventDefault();
+        self.closeShareMenu();
+        self.downloadSnapshot('png');
       });
     }
 
