@@ -12,6 +12,7 @@ Usage:
 import os
 import sys
 import json
+import re
 import argparse
 from pathlib import Path
 
@@ -46,20 +47,55 @@ def generate_package(config_path=None, template_path=None, output_path=None):
     exec_name = prospect.get("executiveName", "Principal Pending")
     exec_title = prospect.get("executiveTitle", "Title Pending")
 
-    # Replace initial skeleton text with prospect values if present
-    hydrated_html = template_html.replace(
-        '<div class="iiip-prospect-entity" data-bind="prospect.companyName">Awaiting Entity Hydration</div>',
-        f'<div class="iiip-prospect-entity" data-bind="prospect.companyName">{company_name}</div>'
-    ).replace(
-        '<span class="iiip-recipient-name" data-bind="prospect.executiveName">Principal Pending</span>',
-        f'<span class="iiip-recipient-name" data-bind="prospect.executiveName">{exec_name}</span>'
-    ).replace(
-        '<span data-bind="prospect.executiveTitle">Title Pending</span>',
-        f'<span data-bind="prospect.executiveTitle">{exec_title}</span>'
+    # Replace initial skeleton text with prospect values dynamically via regex
+    hydrated_html = re.sub(
+        r'(<div class="iiip-prospect-entity"[^>]*>)[^<]*(</div>)',
+        rf'\g<1>{company_name}\g<2>',
+        template_html
+    )
+    hydrated_html = re.sub(
+        r'(<span class="iiip-recipient-name"[^>]*>)[^<]*(</span>)',
+        rf'\g<1>{exec_name}\g<2>',
+        hydrated_html
+    )
+    hydrated_html = re.sub(
+        r'(<span data-bind="prospect\.executiveTitle"[^>]*>)[^<]*(</span>)',
+        rf'\g<1>{exec_title}\g<2>',
+        hydrated_html
+    )
+    hydrated_html = re.sub(
+        r'(<title>)[^<]*(</title>)',
+        rf'\g<1>{company_name} // Invisible Infrastructure Intelligence Package | MT Media AI\g<2>',
+        hydrated_html
+    )
+    hydrated_html = re.sub(
+        r'(<div class="iiip-watermark-overlay"[^>]*>)[^<]*(</div>)',
+        rf'\g<1>Prepared exclusively for {company_name}\g<2>',
+        hydrated_html
     )
 
+    # Pre-populate first vital spotlight if available
+    vitals = prospect.get("vitals", [])
+    if vitals and len(vitals) > 0:
+        first_vital = vitals[0]
+        hydrated_html = re.sub(
+            r'(<span class="vital-spot-k" id="vital-spot-k">)[^<]*(</span>)',
+            rf'\g<1>{first_vital.get("label", "Field of Practice")}\g<2>',
+            hydrated_html
+        )
+        hydrated_html = re.sub(
+            r'(<span class="vital-spot-v" id="vital-spot-v">)[^<]*(</span>)',
+            rf'\g<1>{first_vital.get("value", "")}\g<2>',
+            hydrated_html
+        )
+        hydrated_html = re.sub(
+            r'(<span class="vital-spot-note" id="vital-spot-note">)[^<]*(</span>)',
+            rf'\g<1>{first_vital.get("note", "")}\g<2>',
+            hydrated_html
+        )
+
     # Embed configuration payload and boot trigger
-    config_script = f"""  <script src="iiip-engine.js?v=20261004_v4"></script>
+    config_script = f"""  <script src="iiip-engine.js?v=20261004_v8"></script>
   <script>
     window.IIIP_CONFIG = {json.dumps(config_data, indent=2)};
     document.addEventListener('DOMContentLoaded', function () {{

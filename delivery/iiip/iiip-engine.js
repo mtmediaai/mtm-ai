@@ -307,21 +307,81 @@
   Engine.prototype.init = function (overrideConfig) {
     var self = this;
 
-    if (overrideConfig) {
+    // 1. Check URL parameters for explicit config, client alias, or cache reset
+    var urlParams = null;
+    try {
+      urlParams = new URLSearchParams(window.location.search);
+    } catch (e) {}
+
+    var configParam = urlParams && (urlParams.get('config') || urlParams.get('cfg') || urlParams.get('deliverable'));
+    var clientParam = urlParams && (urlParams.get('client') || urlParams.get('prospect') || urlParams.get('profile'));
+    var resetParam = urlParams && (urlParams.get('reset') === '1' || urlParams.get('fresh') === '1');
+
+    if (resetParam) {
+      try {
+        sessionStorage.removeItem(SESSION_CONFIG_KEY);
+        localStorage.removeItem(SESSION_CONFIG_KEY);
+      } catch (e) {}
+    }
+
+    // Client alias shortcuts (e.g. ?client=score or ?client=jim-osullivan)
+    if (clientParam) {
+      var c = clientParam.toLowerCase();
+      if (c.indexOf('score') !== -1 || c.indexOf('osullivan') !== -1 || c.indexOf('jim') !== -1) {
+        configParam = 'score-mentor-jim-osullivan-config.json';
+      } else if (c.indexOf('sovereign') !== -1) {
+        configParam = 'iiip-config.sample.json';
+      }
+    }
+
+    if (configParam) {
+      return fetch(configParam)
+        .then(function (res) {
+          if (!res.ok) throw new Error('config fetch failed: ' + configParam);
+          return res.json();
+        })
+        .then(function (json) {
+          self.config = json;
+          self.commit();
+          self.showToast('Deliverable Hydrated: ' + ((json.prospect && json.prospect.companyName) || configParam));
+          return self;
+        })
+        .catch(function (err) {
+          console.warn('[IIIP] Failed to load config from URL parameter:', err);
+          return self.resolveDefaultConfig(overrideConfig);
+        });
+    }
+
+    return this.resolveDefaultConfig(overrideConfig);
+  };
+
+  Engine.prototype.resolveDefaultConfig = function (overrideConfig) {
+    var self = this;
+
+    // Check if override is an explicit dynamic payload from file drop/upload
+    var isStaticInline = (overrideConfig && window.IIIP_CONFIG && overrideConfig === window.IIIP_CONFIG);
+
+    if (overrideConfig && !isStaticInline) {
       this.config = overrideConfig;
       return this.commit();
     }
 
+    // Check session or local cache for previously ingested deliverables
     var cached = null;
     try {
-      var raw = sessionStorage.getItem(SESSION_CONFIG_KEY);
+      var raw = sessionStorage.getItem(SESSION_CONFIG_KEY) || localStorage.getItem(SESSION_CONFIG_KEY);
       if (raw) cached = JSON.parse(raw);
     } catch (e) {
       cached = null;
     }
 
-    if (cached) {
+    if (cached && cached.prospect && cached.prospect.companyName) {
       this.config = cached;
+      return this.commit();
+    }
+
+    if (overrideConfig) {
+      this.config = overrideConfig;
       return this.commit();
     }
 
@@ -409,6 +469,14 @@
     this.bindDeck(cfg.audioBriefing, cfg);
     this.bindGemini(cfg.ignitionHub, cfg);
     this.bindCtas(cfg.ignitionHub && cfg.ignitionHub.ctas);
+    this.bindDeliverableUpload();
+
+    // Dynamically synchronize document title & watermark overlay
+    if (cfg.prospect && cfg.prospect.companyName) {
+      document.title = cfg.prospect.companyName + ' // Invisible Infrastructure Intelligence Package | MT Media AI';
+      var wm = el('iiip-watermark-overlay') || document.querySelector('.iiip-watermark-overlay');
+      if (wm) wm.textContent = 'Prepared exclusively for ' + cfg.prospect.companyName;
+    }
 
     if (IIIP.clock) IIIP.clock.arm(cfg.refusalClock, cfg.reservation, this.masterCapture, cfg.prospect);
     if (IIIP.gauges) IIIP.gauges.render(cfg);
@@ -690,18 +758,24 @@
       chipRow.appendChild(chip);
     });
 
-    function paint(index) {
+    function paint(index, immediate) {
       var vital = self.vitals[index];
       if (!vital) return;
 
-      spotlight.classList.add('is-swapping');
-
-      setTimeout(function () {
+      if (immediate) {
         if (kEl) kEl.textContent = vital.label;
         if (vEl) vEl.textContent = vital.value;
         if (nEl) nEl.textContent = vital.note || '';
         spotlight.classList.remove('is-swapping');
-      }, 180);
+      } else {
+        spotlight.classList.add('is-swapping');
+        setTimeout(function () {
+          if (kEl) kEl.textContent = vital.label;
+          if (vEl) vEl.textContent = vital.value;
+          if (nEl) nEl.textContent = vital.note || '';
+          spotlight.classList.remove('is-swapping');
+        }, 180);
+      }
 
       var chips = chipRow.querySelectorAll('.vital-chip');
       Array.prototype.forEach.call(chips, function (chip, i) {
@@ -712,12 +786,12 @@
 
     this.showVital = function (index, manual) {
       self.vitalIndex = (index + self.vitals.length) % self.vitals.length;
-      paint(self.vitalIndex);
+      paint(self.vitalIndex, false);
       self.vitalElapsed = 0;
       if (manual) self.vitalHold = true;
     };
 
-    paint(0);
+    paint(0, true);
 
     /* Drive the sweep and the advance from a single light interval */
     if (this.vitalTimer) clearInterval(this.vitalTimer);
@@ -1753,10 +1827,161 @@
         if (typeof value === 'string' && value.indexOf('blob:') === 0) return '';
         return value;
       }));
-      sessionStorage.setItem(SESSION_CONFIG_KEY, JSON.stringify(safe));
+      var serialized = JSON.stringify(safe);
+      sessionStorage.setItem(SESSION_CONFIG_KEY, serialized);
+      localStorage.setItem(SESSION_CONFIG_KEY, serialized);
     } catch (e) {
       /* storage blocked in sandboxed frames, continue silently */
     }
+  };
+
+  /* Executive Toast Telemetry for deliverable uploads */
+  Engine.prototype.showToast = function (message, isError) {
+    var toast = el('iiip-toast');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.id = 'iiip-toast';
+      toast.className = 'iiip-toast';
+      toast.setAttribute('role', 'status');
+      toast.setAttribute('aria-live', 'polite');
+      document.body.appendChild(toast);
+    }
+
+    toast.textContent = message;
+    toast.className = 'iiip-toast' + (isError ? ' is-error' : '') + ' is-visible';
+
+    if (this._toastTimer) clearTimeout(this._toastTimer);
+    this._toastTimer = setTimeout(function () {
+      toast.classList.remove('is-visible');
+    }, 4500);
+  };
+
+  /* Automatic Deliverable Ingestion & Drop-Zone Orchestration */
+  Engine.prototype.bindDeliverableUpload = function () {
+    var self = this;
+    if (this._deliverableUploadBound) return;
+    this._deliverableUploadBound = true;
+
+    var banner = document.querySelector('.iiip-prospect-banner');
+    var fileInput = el('deliverables-file-input');
+
+    if (!fileInput) {
+      fileInput = document.createElement('input');
+      fileInput.type = 'file';
+      fileInput.id = 'deliverables-file-input';
+      fileInput.className = 'is-hidden';
+      fileInput.accept = '.json,image/*,audio/*';
+      fileInput.multiple = true;
+      fileInput.style.display = 'none';
+      fileInput.setAttribute('aria-hidden', 'true');
+      fileInput.tabIndex = -1;
+      document.body.appendChild(fileInput);
+    }
+
+    fileInput.addEventListener('change', function (e) {
+      if (e.target.files && e.target.files.length) {
+        self.ingestDeliverables(e.target.files);
+        fileInput.value = '';
+      }
+    });
+
+    // Make prospect entity title trigger file picker on double-click
+    var entityEl = document.querySelector('.iiip-prospect-entity');
+    if (entityEl && !entityEl.dataset.uploadWired) {
+      entityEl.dataset.uploadWired = 'true';
+      entityEl.setAttribute('title', 'Drag & drop deliverables here or double-click to browse files');
+      entityEl.style.cursor = 'pointer';
+      entityEl.addEventListener('dblclick', function () {
+        fileInput.click();
+      });
+    }
+
+    // Drag and drop listeners across window and banner
+    var dragCount = 0;
+    window.addEventListener('dragenter', function (e) {
+      dragCount++;
+      if (banner) banner.classList.add('is-dragover');
+    });
+
+    window.addEventListener('dragleave', function (e) {
+      dragCount--;
+      if (dragCount <= 0 && banner) {
+        dragCount = 0;
+        banner.classList.remove('is-dragover');
+      }
+    });
+
+    window.addEventListener('dragover', function (e) {
+      e.preventDefault();
+      if (banner) banner.classList.add('is-dragover');
+    });
+
+    window.addEventListener('drop', function (e) {
+      e.preventDefault();
+      dragCount = 0;
+      if (banner) banner.classList.remove('is-dragover');
+
+      var files = e.dataTransfer && e.dataTransfer.files;
+      if (files && files.length) {
+        self.ingestDeliverables(files);
+      }
+    });
+  };
+
+  /* Route dropped deliverable bundle (config.json, images, audio) */
+  Engine.prototype.ingestDeliverables = function (files) {
+    var self = this;
+    var fileList = Array.prototype.slice.call(files);
+
+    // 1. Process JSON configuration first
+    var jsonFile = fileList.find(function (f) {
+      return (f.name && f.name.toLowerCase().endsWith('.json')) ||
+             (f.type && f.type.indexOf('json') !== -1);
+    });
+
+    if (jsonFile) {
+      var reader = new FileReader();
+      reader.onload = function (e) {
+        try {
+          var parsed = JSON.parse(e.target.result);
+          if (parsed && (parsed.prospect || parsed.system || parsed.visualSnapshot)) {
+            self.config = parsed;
+            self.commit();
+            var name = (parsed.prospect && parsed.prospect.companyName) || jsonFile.name;
+            self.showToast('Deliverable Hydrated: ' + name);
+            console.log('[IIIP] Deliverable successfully hydrated from drop:', jsonFile.name);
+          } else {
+            self.showToast('Notice: JSON dropped does not contain IIIP deliverable keys.', true);
+          }
+        } catch (err) {
+          self.showToast('JSON Parse Error: ' + err.message, true);
+        }
+      };
+      reader.readAsText(jsonFile);
+    }
+
+    // 2. Route images and audio files
+    fileList.forEach(function (file) {
+      var nameLower = (file.name || '').toLowerCase();
+      if (file.type && file.type.indexOf('image/') === 0) {
+        if (nameLower.indexOf('snapshot') !== -1 || nameLower.indexOf('infographic') !== -1) {
+          if (typeof self.ingestSnapshotFile === 'function') {
+            self.ingestSnapshotFile(file);
+          }
+        } else if (nameLower.indexOf('bento') !== -1 || nameLower.indexOf('carousel') !== -1) {
+          var m = nameLower.match(/(\d+)/);
+          var slot = m ? parseInt(m[1], 10) : 1;
+          var url = URL.createObjectURL(file);
+          if (typeof self.setBentoImage === 'function') {
+            self.setBentoImage(url, 'carousel-' + slot);
+          }
+        }
+      } else if ((file.type && file.type.indexOf('audio/') === 0) || /\.(mp3|wav|m4a|ogg)$/i.test(file.name)) {
+        if (IIIP.deck && typeof IIIP.deck.ingestFiles === 'function') {
+          IIIP.deck.ingestFiles([file]);
+        }
+      }
+    });
   };
 
   /* HUD hook: inject an ingested image into a specific bento slot (1 through 5) */

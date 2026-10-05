@@ -627,6 +627,15 @@ body.iiip-body {
   grid-template-columns: 1fr;
   gap: var(--rhythm-3);
   padding-top: var(--rhythm-3);
+  transition: outline 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+}
+
+.iiip-prospect-banner.is-dragover {
+  outline: 2px dashed var(--midas-gold);
+  outline-offset: 8px;
+  border-radius: var(--r-lg);
+  box-shadow: 0 0 35px rgba(212, 175, 55, 0.4);
+  background: rgba(212, 175, 55, 0.04);
 }
 
 .iiip-prospect-banner > div:first-child {
@@ -4536,4 +4545,41 @@ html.iiip-root {
   .scrub-thumb {
     transform: translateY(-50%) scale(1.25);
   }
+}
+
+/* ==========================================================================
+   EXECUTIVE DELIVERABLE TOAST TELEMETRY
+   ========================================================================== */
+.iiip-toast {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 99999;
+  max-width: 480px;
+  padding: 0.9rem 1.4rem;
+  border-radius: var(--r-md);
+  border: 1px solid var(--midas-gold);
+  background: rgba(5, 5, 5, 0.94);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  color: var(--hid-white);
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  letter-spacing: 0.05em;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.8), 0 0 25px rgba(212, 175, 55, 0.35);
+  opacity: 0;
+  transform: translateY(16px);
+  pointer-events: none;
+  transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1), transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.iiip-toast.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.iiip-toast.is-error {
+  border-color: #ff4d4d;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.8), 0 0 25px rgba(255, 77, 77, 0.35);
 }
