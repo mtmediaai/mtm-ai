@@ -383,11 +383,10 @@ body.iiip-body {
   opacity: 0.85;
 }
 
-/* Masthead splits evenly. Company identity holds the left in Midas Gold,
-   the package title holds the right where the pills used to sit. */
+/* Masthead header top: Company brand on the left, package deliverable title on the right */
 .iiip-header-top {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   gap: var(--rhythm-3);
   padding-bottom: var(--rhythm-3);
   border-bottom: 1px solid rgba(255, 255, 255, 0.07);
@@ -395,24 +394,16 @@ body.iiip-body {
 
 @media (min-width: 920px) {
   .iiip-header-top {
-    grid-template-columns: 1fr auto 1fr;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     gap: var(--rhythm-4);
   }
 }
 
-/* Vertical hairline divider between the two halves */
+/* Legacy middle divider deprecated; separator now anchors inside brand cluster */
 .iiip-header-split {
-  display: none;
-}
-
-@media (min-width: 920px) {
-  .iiip-header-split {
-    display: block;
-    width: 1px;
-    height: 68px;
-    background: linear-gradient(180deg, transparent, var(--rim-mid) 30%, rgba(212, 175, 55, 0.5) 50%, var(--rim-mid) 70%, transparent);
-  }
+  display: none !important;
 }
 
 .iiip-package-mark {
@@ -477,7 +468,17 @@ body.iiip-body {
 .iiip-brand-cluster {
   display: flex;
   align-items: center;
-  gap: 0.85rem;
+  gap: 1.1rem;
+}
+
+/* Molten Midas Gold vertical divider separating MTM Black Jewel mark from company name */
+.iiip-brand-sep {
+  display: block;
+  width: 1px;
+  height: 48px;
+  background: linear-gradient(180deg, transparent 0%, rgba(212, 175, 55, 0.35) 15%, var(--midas-gold) 50%, rgba(212, 175, 55, 0.35) 85%, transparent 100%);
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.45);
+  flex-shrink: 0;
 }
 
 /* Crown mark: no plate, no border, no fill. The artwork's black field
