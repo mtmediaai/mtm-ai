@@ -357,7 +357,7 @@ body.iiip-body {
 .forge-body {
   font-size: 0.98rem;
   line-height: 1.68;
-  color: var(--chrome-400);
+  color: var(--chrome-200);
   max-width: 76ch;
 }
 
@@ -747,7 +747,7 @@ body.iiip-body {
   font-weight: 300;
   font-size: 0.78rem;
   line-height: 1.7;
-  color: var(--chrome-400);
+  color: var(--chrome-200);
 }
 
 /* Each cycle fades and lifts the readout into place */
@@ -2468,7 +2468,7 @@ body.iiip-body {
 
 .cta-sub {
   font-size: 0.88rem;
-  color: var(--chrome-400);
+  color: var(--chrome-200);
 }
 
 .cta-matrix {
@@ -3833,7 +3833,7 @@ img[alt],
   font-family: var(--font-body);
   font-weight: 300;
   font-size: 0.8rem;
-  color: var(--chrome-400);
+  color: var(--chrome-200);
 }
 
 .snapshot-actions {
@@ -3967,7 +3967,7 @@ img[alt],
   font-weight: 300;
   font-size: 0.76rem;
   line-height: 1.75;
-  color: var(--chrome-500);
+  color: var(--chrome-200);
   padding: 0 1.6rem 1.25rem;
 }
 
@@ -3994,7 +3994,7 @@ img[alt],
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--chrome-500);
+  color: var(--chrome-300);
 }
 
 .hub-fallback-link {
@@ -4076,7 +4076,7 @@ img[alt],
   font-family: var(--font-body);
   font-weight: 300;
   font-size: 0.8rem;
-  color: var(--chrome-500);
+  color: var(--chrome-200);
 }
 
 .social-row {
@@ -4125,7 +4125,7 @@ img[alt],
 .social-handle {
   font-family: var(--font-footer);
   font-size: 0.78rem;
-  color: var(--chrome-500);
+  color: var(--chrome-300);
 }
 
 .social-handle a {

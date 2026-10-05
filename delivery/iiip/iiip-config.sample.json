@@ -453,11 +453,13 @@
       "primary": {
         "label": "Authorize Stage One",
         "action": "ENGAGEMENT_MODAL",
+        "url": "https://mtmediaai.com/contact",
         "description": "Give us the go ahead and we will quietly assemble your machine readable foundation."
       },
       "secondary": {
         "label": "Reserve Window",
         "action": "LOCK_REFUSAL",
+        "url": "https://mtmediaai.com/territory-ledger",
         "description": "Hold your position in the corridor while you take time to review everything."
       },
       "tertiary": {

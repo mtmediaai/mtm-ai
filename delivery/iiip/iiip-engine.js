@@ -1730,6 +1730,7 @@
       if (copy && cta.description) copy.textContent = cta.description;
       if (cardTitle && cta.title) cardTitle.textContent = cta.title;
       if (btn && cta.action) btn.setAttribute('data-action', cta.action);
+      if (btn && cta.url) btn.setAttribute('data-url', cta.url);
     });
   };
 
@@ -1753,8 +1754,30 @@
     var items = this.config.visualSnapshot.items;
     if (!Array.isArray(items) || !items.length) return false;
 
-    var index = Math.max(0, Math.min((parseInt(slot, 10) || 1) - 1, items.length - 1));
-    items[index].imageUrl = objectUrl;
+    if (String(slot).indexOf('carousel-') === 0) {
+      var cIdx = Math.max(0, parseInt(String(slot).replace('carousel-', ''), 10) - 1);
+      if (items[0]) {
+        if (!Array.isArray(items[0].carouselImages)) items[0].carouselImages = [];
+        if (!items[0].carouselImages[cIdx]) {
+          items[0].carouselImages[cIdx] = {
+            url: objectUrl,
+            title: 'Evidence ' + (cIdx + 1),
+            stat: 'Verified',
+            subtitle: 'Ingested Evidence Slide ' + (cIdx + 1),
+            alt: 'Bento carousel evidence slide ' + (cIdx + 1)
+          };
+        } else {
+          items[0].carouselImages[cIdx].url = objectUrl;
+        }
+        if (cIdx === 0) items[0].imageUrl = objectUrl;
+      }
+    } else {
+      var index = Math.max(0, Math.min((parseInt(slot, 10) || 1) - 1, items.length - 1));
+      items[index].imageUrl = objectUrl;
+      if (index === 0 && Array.isArray(items[0].carouselImages) && items[0].carouselImages.length > 0) {
+        items[0].carouselImages[0].url = objectUrl;
+      }
+    }
     this.objectUrls.push(objectUrl);
 
     this.bindBento(this.config.visualSnapshot);
@@ -3028,7 +3051,7 @@
     document.addEventListener('click', function (e) {
       var trigger = e.target.closest ? e.target.closest('[data-action]') : null;
       if (!trigger) return;
-      self.trigger(trigger.getAttribute('data-action'));
+      self.trigger(trigger.getAttribute('data-action'), trigger);
     });
   }
 
@@ -3036,7 +3059,7 @@
     this.config = config || {};
   };
 
-  Dispatcher.prototype.trigger = function (action) {
+  Dispatcher.prototype.trigger = function (action, triggerEl) {
     var modal = el('action-modal');
     if (!modal) return;
 
@@ -3047,6 +3070,12 @@
     var closeBtn = el('action-close');
 
     var prospect = this.config.prospect || {};
+    var directUrl = triggerEl && triggerEl.getAttribute('data-url');
+
+    if (directUrl && action === 'OPEN_URL') {
+      window.open(directUrl, '_blank', 'noopener,noreferrer');
+      return;
+    }
 
     function close() { modal.classList.add('is-hidden'); }
 
@@ -3067,17 +3096,30 @@
     if (action === 'ENGAGEMENT_MODAL') {
       tag.textContent = 'Stage One';
       title.textContent = 'Begin Stage One';
+      var firmName = prospect.companyName || 'your firm';
+      var principalName = prospect.executiveName || 'your principal';
+      var emailSub = encodeURIComponent('Authorize Stage One — ' + firmName);
+      var emailBody = encodeURIComponent('Hi Kareem,\n\nWe are ready to authorize Stage One for ' + firmName + '.\n\nPrincipal: ' + principalName + '\nTerritory: ' + (prospect.territory || 'Primary Regional Corridor') + '\n\nPlease initiate the onboarding protocol.\n\nBest regards,\n' + principalName);
+      var publicContactUrl = (directUrl || 'https://mtmediaai.com/contact') + '?intent=authorize-stage-one&firm=' + encodeURIComponent(firmName);
+
       body.innerHTML =
-        '<p class="dialog-text" style="margin-bottom:1rem;">We will begin quietly assembling the machine readable foundation for <strong>' +
-          escapeHtml(prospect.companyName || 'your firm') + '</strong>, under the direction of <strong>' +
-          escapeHtml(prospect.executiveName || 'your principal') + '</strong>. Nothing about your website, your daily routine, or your existing partners needs to change.</p>' +
+        '<p class="dialog-text" style="margin-bottom:1rem; color:var(--chrome-100);">We will begin quietly assembling the machine readable foundation for <strong>' +
+          escapeHtml(firmName) + '</strong>, under the direction of <strong>' +
+          escapeHtml(principalName) + '</strong>. Nothing about your website, your daily routine, or your existing partners needs to change.</p>' +
         '<div class="dialog-field"><div class="dialog-label">Standing available to you</div>' +
-          '<code class="dialog-code onyx-well">' + escapeHtml(prospect.targetValuationVector || 'Pending') + '</code></div>' +
+          '<code class="dialog-code onyx-well">' + escapeHtml(prospect.targetValuationVector || 'First Choice Authority') + '</code></div>' +
         '<div class="dialog-field"><div class="dialog-label">Your point of contact</div>' +
-          '<code class="dialog-code onyx-well">' + escapeHtml(prospect.accountLead || 'Goldie, our ambassador') + '</code></div>' +
-        '<p class="dialog-flag">Onboarding begins within one business day. You will receive a short written summary before any work starts, so you always know exactly what is happening.</p>';
-      confirm.textContent = 'Begin Stage One';
-      confirm.onclick = close;
+          '<code class="dialog-code onyx-well">Kareem Daniel, Principal AI Systems Architect</code></div>' +
+        '<p class="dialog-flag">Onboarding begins within one business day. You will receive a short written summary before any work starts, so you always know exactly what is happening.</p>' +
+        '<div style="margin-top:0.85rem; display:flex; gap:0.6rem; flex-wrap:wrap;">' +
+          '<a href="mailto:kareem@mtmediaai.com?subject=' + emailSub + '&body=' + emailBody + '" class="btn btn-rim" style="font-size:0.75rem; padding:0.45rem 0.85rem; text-decoration:none;">Direct Email Authorization</a>' +
+        '</div>';
+
+      confirm.textContent = 'Proceed to Sovereign Onboarding →';
+      confirm.onclick = function () {
+        close();
+        window.open(publicContactUrl, '_blank', 'noopener,noreferrer');
+      };
       modal.classList.remove('is-hidden');
       return;
     }
@@ -3085,16 +3127,23 @@
     if (action === 'LOCK_REFUSAL') {
       tag.textContent = 'Reservation';
       title.textContent = 'Your Window Is Reserved';
+      var resCode = 'MTM-' + Math.random().toString(36).substring(2, 10).toUpperCase();
+      var territoryName = prospect.territory || 'Primary Regional Corridor';
+      var ledgerUrl = (directUrl || 'https://mtmediaai.com/territory-ledger') + '?ref=' + encodeURIComponent(resCode) + '&territory=' + encodeURIComponent(territoryName);
+
       body.innerHTML =
-        '<p class="dialog-text" style="margin-bottom:1rem;">The 14 day priority window is now held for <strong>' +
-          escapeHtml(prospect.companyName || 'your firm') + '</strong> across ' +
-          escapeHtml(prospect.territory || 'your regional corridor') + '. We will not extend the same reservation to a competing firm in your district while it remains open.</p>' +
+        '<p class="dialog-text" style="margin-bottom:1rem; color:var(--chrome-100);">The 14 day priority window is now held for <strong>' +
+          escapeHtml(prospect.companyName || 'your firm') + '</strong> across <strong>' +
+          escapeHtml(territoryName) + '</strong>. We will not extend the same reservation to a competing firm in your district while it remains open.</p>' +
         '<div class="dialog-field"><div class="dialog-label">Reservation reference</div>' +
-          '<code class="dialog-code onyx-well">MTM-' +
-          Math.random().toString(36).substring(2, 10).toUpperCase() + '</code></div>' +
+          '<code class="dialog-code onyx-well">' + resCode + '</code></div>' +
         '<p class="dialog-flag">There is no obligation attached. Review the material at your leisure, and if the timing is not right, the window simply closes with no further contact.</p>';
-      confirm.textContent = 'Thank You';
-      confirm.onclick = close;
+
+      confirm.textContent = 'Verify on Public Territory Ledger →';
+      confirm.onclick = function () {
+        close();
+        window.open(ledgerUrl, '_blank', 'noopener,noreferrer');
+      };
       modal.classList.remove('is-hidden');
       return;
     }
@@ -3102,13 +3151,27 @@
     if (action === 'FACTORY_COMMS') {
       tag.textContent = 'Direct Line';
       title.textContent = 'Send Us a Note';
+      var firmForComms = prospect.companyName || 'your office';
       body.innerHTML =
-        '<p class="dialog-text" style="margin-bottom:1rem;">Your question goes straight to our systems team on behalf of <strong>' +
-          escapeHtml(prospect.executiveName || 'your office') + '</strong>. There is no sales follow up attached to this message.</p>' +
-        '<div class="dialog-field"><div class="dialog-label">Your question</div>' +
-          '<textarea class="dialog-input" placeholder="Ask us anything about this review."></textarea></div>';
-      confirm.textContent = 'Send Note';
-      confirm.onclick = close;
+        '<p class="dialog-text" style="margin-bottom:1rem; color:var(--chrome-100);">Your question goes straight to The Architect and our systems team on behalf of <strong>' +
+          escapeHtml(firmForComms) + '</strong>. There is no sales follow up attached to this message.</p>' +
+        '<div class="dialog-field"><div class="dialog-label">Your question or request</div>' +
+          '<textarea class="dialog-input" id="factory-comms-textarea" placeholder="Ask us anything about this review or your territory findings."></textarea></div>';
+
+      confirm.textContent = 'Send via Direct Uplink →';
+      confirm.onclick = function () {
+        var textarea = el('factory-comms-textarea') || modal.querySelector('textarea');
+        var note = textarea ? textarea.value.trim() : '';
+        close();
+        if (note) {
+          var mailtoUrl = 'mailto:kareem@mtmediaai.com?subject=' +
+            encodeURIComponent('IIIP Review Inquiry — ' + firmForComms) +
+            '&body=' + encodeURIComponent(note + '\n\n— Submitted regarding AI Visibility Review for ' + (prospect.executiveName || 'Principal'));
+          window.location.href = mailtoUrl;
+        } else {
+          window.open('https://mtmediaai.com/contact?intent=iiip-review-inquiry&firm=' + encodeURIComponent(firmForComms), '_blank', 'noopener,noreferrer');
+        }
+      };
       modal.classList.remove('is-hidden');
       return;
     }
