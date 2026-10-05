@@ -1,4 +1,6 @@
-# MT Media AI — Public Knowledge Base
+# MT Media AI — Public Knowledge Base (Machine Discovery)
+**Canonical Label:** `mtm-ai` (Public Knowledge Base - Machine Discovery)  
+**Entity:** MT Media AI (@mtmediaai) | Modern Touch Media  
 
 **MT Media AI** builds Invisible Infrastructure Intelligence for established service businesses navigating AI search and the Agentic Search Era.
 
