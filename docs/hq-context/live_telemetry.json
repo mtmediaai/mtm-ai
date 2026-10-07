@@ -1,23 +1,24 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-07T13:43:29Z",
-  "source_commit": "9cb46bc8a2e20f7279e37428c438c3a9615f596f",
+  "generated_at": "2026-10-07T14:08:38Z",
+  "source_state_commit": "9cb46bc8a2e20f7279e37428c438c3a9615f596f",
+  "publication_commit": "2d2928ac361dd9d3920287bba96c269f35ef3193",
   "handshake_id": "MTM-HQ-BRIDGE-2026-10-07-01",
   "publication_state": "context_only",
   "commercial_launch_enabled": false,
   "operational_summary": {
     "orchestrator": "Axiom Local (MOS)",
-    "command_center_port": 8721,
-    "daemons_active": 0,
-    "tailscale_ip": "100.121.186.2",
+    "control_plane": "Local execution nominal",
     "active_departments": {
       "finance": {
-        "status": "operational",
-        "version": "0.3.0",
+        "status": "local implementation reported; HQ acceptance pending",
+        "department_version": "0.3.0",
         "checkpoint": "MTM-FIN-I3-CP-2026-10-07",
-        "catalog_items": 13,
+        "catalog_seed_records": 13,
+        "validated_service_offerings": "pending scope reconciliation",
+        "scope_distinction": "13 records represent baseline checkpoint floor prices; full package entitlements and launch pricing remain in reconciliation",
         "governance": "7-Factor qualitative assessment enforced",
-        "zero_cogs": "Active - No external SaaS cost"
+        "zero_cogs": "Active - Zero external SaaS spend"
       },
       "sales": {
         "lead": "Reign",
