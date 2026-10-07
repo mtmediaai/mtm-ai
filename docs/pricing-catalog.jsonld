@@ -7,41 +7,104 @@
       "name": "MT Media AI",
       "alternateName": "Modern Touch Media",
       "url": "https://mtmediaai.com",
+      "logo": "https://mtmediaai.com/assets/black-jewel-mt-media-logo.webp",
       "description": "AI visibility, knowledge graph engineering, and operational systems for established service providers.",
-      "areaServed": "United States"
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "knowsAbout": [
+        "AI Search Engine Optimization",
+        "Perplexity AI Citation Engineering",
+        "Google AI Overviews Optimization",
+        "ChatGPT Search Readiness",
+        "Entity Authority Knowledge Graphs",
+        "Local Business Infrastructure Calibration"
+      ]
     },
     {
       "@type": "Service",
       "@id": "https://mtmediaai.com/#service-lux",
-      "name": "Lux Diagnostic",
+      "name": "Lux Diagnostic (The Clarity Tool)",
       "provider": {"@id": "https://mtmediaai.com/#organization"},
-      "description": "Complimentary public-source diagnostic knowledge deliverable and baseline entity authority analysis.",
+      "serviceType": "Initial AI Visibility Diagnosis",
+      "description": "Complimentary point-in-time AI visibility diagnosis. Mass leads receive the interactive Inspiration Ignition Hub; First Round Draft Picks receive the full IIIP Tri-Asset Stack (personalized infographic, audio overview, and interactive hub).",
       "offers": {
         "@type": "Offer",
         "price": "0",
         "priceCurrency": "USD",
-        "availability": "https://schema.org/PreOrder"
+        "availability": "https://schema.org/InStock",
+        "priceValidUntil": "2027-12-31"
       }
     },
     {
       "@type": "Service",
       "@id": "https://mtmediaai.com/#service-bedrock",
-      "name": "Bedrock Foundation Sprint",
+      "name": "The I³ Bedrock Foundation Sprint",
       "provider": {"@id": "https://mtmediaai.com/#organization"},
-      "description": "Foundational local calibration including Google Business Profile, executive profile alignment, directory audits, and neutral review governance.",
+      "serviceType": "Foundational Technical Sprint (Days 1–30)",
+      "description": "Standardized 30-day technical implementation halting active referral leakage. Delivers the 5 core infrastructure fixes: Google Business Profile calibration, Executive LinkedIn authority, NAP directory consensus, review preservation gateway, and verified proof ledger with 30-day corridor exclusivity.",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Bedrock Sprint Deliverables",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Google Business Profile Deep Calibration",
+              "description": "1 primary + 9 secondary categories mapped to high-net-worth transactional intent, geometric service boundary alignment, 15+ geo-located WebP project photos, luxury catalog restructuring."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Executive LinkedIn Authority Architecture",
+              "description": "Complete Midas Tongue rewrite of Founder/Principal profile, corporate entity binding, perceptual authority title repositioning, rapid indexation."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Core NAP Directory Consensus & Suppression",
+              "description": "Forensic conflict audit and authoritative sync across Tier-1 data providers (Data Axle, Apple Maps, Yelp, Bing Places, BBB) eliminating conflicting signals."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Review Preservation Gateway & Sentiment Velocity",
+              "description": "Private sentiment routing gateway directing 5-star ratings to Google while capturing feedback privately, 10-client keyword-dense review push."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Verified Proof Ledger & 30-Day Territory Covenant",
+              "description": "Exhaustive line-by-line accounting of all claimed accounts and citation updates, formal 30-day territory exclusivity covenant defending category seat."
+            }
+          }
+        ]
+      },
       "offers": {
         "@type": "Offer",
         "price": "2950",
         "priceCurrency": "USD",
-        "availability": "https://schema.org/PreOrder"
+        "availability": "https://schema.org/PreOrder",
+        "description": "Fixed one-time sprint fee. Hard cap of 4 seats per ZIP code."
       }
     },
     {
       "@type": "Service",
       "@id": "https://mtmediaai.com/#service-helios",
-      "name": "Helios Command Center",
+      "name": "Helios Command Center (Self-Maintenance DIY)",
       "provider": {"@id": "https://mtmediaai.com/#organization"},
-      "description": "Do-it-yourself command center access to verified template libraries, prompt assets, and operational blueprints.",
+      "serviceType": "DIY Infrastructure Maintenance & Tooling",
+      "description": "Self-serve monthly subscription for operators maintaining their Bedrock Foundation. Includes continuous access to MTM template library, AI prompt vaults, Dynasty Blueprints, plus weekly personalized market intelligence on 2 client-selected watchlist items.",
       "offers": {
         "@type": "Offer",
         "price": "497",
@@ -58,9 +121,10 @@
     {
       "@type": "Service",
       "@id": "https://mtmediaai.com/#service-sol",
-      "name": "Sol Invictus Strategy Alliance",
+      "name": "Sol Invictus Strategy Alliance (Managed Maintenance DWY)",
       "provider": {"@id": "https://mtmediaai.com/#organization"},
-      "description": "Done-with-you strategic advisory featuring weekly asynchronous strategic intelligence video feeds and documented directives.",
+      "serviceType": "DWY Managed Strategic Maintenance",
+      "description": "Done-with-you strategic guidance and active maintenance. Includes weekly Sovereign Brief asynchronous video intelligence debriefs, continuous template vault access, daily market intelligence on 3 client-selected watchlist items, and guidance on next-phase diagnosis-driven repair protocols.",
       "offers": {
         "@type": "Offer",
         "price": "1500",
@@ -76,10 +140,11 @@
     },
     {
       "@type": "Service",
-      "@id": "https://mtmediaai.com/#service-amun-base",
-      "name": "Amun-Ra Bounded Execution",
+      "@id": "https://mtmediaai.com/#service-amun-ra",
+      "name": "Amun-Ra Growth Alliance (Full Partnership DFY)",
       "provider": {"@id": "https://mtmediaai.com/#organization"},
-      "description": "Done-for-you technical implementation and knowledge graph alignment across priority service corridors.",
+      "serviceType": "DFY Full Retainer & Growth Execution",
+      "description": "Complete done-for-you digital sovereignty and continuous growth execution (MOVA v2.0). Includes full infrastructure build, 6-hour high-velocity intelligence on 5 watchlist items, live executive dashboard, dedicated priority communication channel, and monthly momentum package.",
       "offers": {
         "@type": "Offer",
         "price": "3500",
@@ -90,7 +155,62 @@
           "priceCurrency": "USD",
           "unitCode": "MON"
         },
+        "description": "Starting at $3,500/month baseline floor, scaled up to $10,000/month+ via mandatory 7-Factor Qualitative Assessment.",
         "availability": "https://schema.org/PreOrder"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://mtmediaai.com/#service-lmi",
+      "name": "Live Market Intelligence (LMI Standalone)",
+      "provider": {"@id": "https://mtmediaai.com/#organization"},
+      "serviceType": "Sourced Market Surveillance Feed",
+      "description": "Standalone personalized market surveillance feed delivering verified signals, movement logs, analyst insights, and considerations under the strict Truth Mandate (empty-state all-clear guarantee).",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "LMI Cadence Ladder",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "LMI Monthly Brief",
+            "price": "297",
+            "priceCurrency": "USD",
+            "priceSpecification": {"@type": "UnitPriceSpecification", "price": "297", "priceCurrency": "USD", "unitCode": "MON"},
+            "description": "Monthly refresh across 3 client-selected watchlist items."
+          },
+          {
+            "@type": "Offer",
+            "name": "LMI Weekly Pulse",
+            "price": "597",
+            "priceCurrency": "USD",
+            "priceSpecification": {"@type": "UnitPriceSpecification", "price": "597", "priceCurrency": "USD", "unitCode": "MON"},
+            "description": "Weekly refresh across 5 client-selected watchlist items (primary center-anchor)."
+          },
+          {
+            "@type": "Offer",
+            "name": "LMI Daily Watch",
+            "price": "1297",
+            "priceCurrency": "USD",
+            "priceSpecification": {"@type": "UnitPriceSpecification", "price": "1297", "priceCurrency": "USD", "unitCode": "MON"},
+            "description": "Daily refresh across 8 client-selected watchlist items."
+          },
+          {
+            "@type": "Offer",
+            "name": "LMI 6-Hour Vigil",
+            "price": "2997",
+            "priceCurrency": "USD",
+            "priceSpecification": {"@type": "UnitPriceSpecification", "price": "2997", "priceCurrency": "USD", "unitCode": "MON"},
+            "description": "High-velocity refresh every 6 hours across 12 client-selected watchlist items."
+          },
+          {
+            "@type": "Offer",
+            "name": "Additional Tracked Watchlist Item",
+            "price": "50",
+            "priceCurrency": "USD",
+            "priceSpecification": {"@type": "UnitPriceSpecification", "price": "50", "priceCurrency": "USD", "unitCode": "MON"},
+            "description": "+$50/month per additional tracked item beyond package caps."
+          }
+        ]
       }
     }
   ]
