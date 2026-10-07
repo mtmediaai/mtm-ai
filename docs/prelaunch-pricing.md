@@ -36,7 +36,7 @@ MT Media AI structures client care across three sequential stages:
 
 1. **Waiting Room (Initial Diagnosis — Lux Silver):** Point-in-time assessment revealing where AI models hallucinate or omit the business. Delivered as an interactive intelligence hub. Zero cost.
 2. **Triage (The I³ Bedrock Foundation Sprint — Days 1–30):** The emergency technical sprint that halts active referral leakage. Because every damaged business requires foundational stabilization, all clients receive the exact same 5 deterministic deliverables. Fixed \$2,950 fee.
-3. **Operating Room (The Softr Palace Workspace — Days 31+):** Once bedrock is secured, clients enter their personal credentialed Softr workspace (`thepalace.mtmediaai.com`). From here, individual treatment plans diverge based on diagnostic recommendations.
+3. **Operating Room (The Chamber / Softr Workspace — Days 31+):** Once bedrock is secured, clients enter their personal credentialed Softr workspace: **The Chamber** (`chamber.mtmediaai.com`). Note: "The Palace" is the designation for the entire main website (`mtmediaai.com`), while "The Chamber" serves as the client operating workspace. From here, individual treatment plans diverge based on diagnostic recommendations.
 
 ---
 
