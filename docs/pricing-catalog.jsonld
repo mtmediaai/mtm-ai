@@ -1,0 +1,97 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://mtmediaai.com/#organization",
+      "name": "MT Media AI",
+      "alternateName": "Modern Touch Media",
+      "url": "https://mtmediaai.com",
+      "description": "AI visibility, knowledge graph engineering, and operational systems for established service providers.",
+      "areaServed": "United States"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://mtmediaai.com/#service-lux",
+      "name": "Lux Diagnostic",
+      "provider": {"@id": "https://mtmediaai.com/#organization"},
+      "description": "Complimentary public-source diagnostic knowledge deliverable and baseline entity authority analysis.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/PreOrder"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://mtmediaai.com/#service-bedrock",
+      "name": "Bedrock Foundation Sprint",
+      "provider": {"@id": "https://mtmediaai.com/#organization"},
+      "description": "Foundational local calibration including Google Business Profile, executive profile alignment, directory audits, and neutral review governance.",
+      "offers": {
+        "@type": "Offer",
+        "price": "2950",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/PreOrder"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://mtmediaai.com/#service-helios",
+      "name": "Helios Command Center",
+      "provider": {"@id": "https://mtmediaai.com/#organization"},
+      "description": "Do-it-yourself command center access to verified template libraries, prompt assets, and operational blueprints.",
+      "offers": {
+        "@type": "Offer",
+        "price": "497",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "497",
+          "priceCurrency": "USD",
+          "unitCode": "MON"
+        },
+        "availability": "https://schema.org/PreOrder"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://mtmediaai.com/#service-sol",
+      "name": "Sol Invictus Strategy Alliance",
+      "provider": {"@id": "https://mtmediaai.com/#organization"},
+      "description": "Done-with-you strategic advisory featuring weekly asynchronous strategic intelligence video feeds and documented directives.",
+      "offers": {
+        "@type": "Offer",
+        "price": "1500",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "1500",
+          "priceCurrency": "USD",
+          "unitCode": "MON"
+        },
+        "availability": "https://schema.org/PreOrder"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://mtmediaai.com/#service-amun-base",
+      "name": "Amun-Ra Bounded Execution",
+      "provider": {"@id": "https://mtmediaai.com/#organization"},
+      "description": "Done-for-you technical implementation and knowledge graph alignment across priority service corridors.",
+      "offers": {
+        "@type": "Offer",
+        "price": "3500",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "3500",
+          "priceCurrency": "USD",
+          "unitCode": "MON"
+        },
+        "availability": "https://schema.org/PreOrder"
+      }
+    }
+  ]
+}

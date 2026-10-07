@@ -1,6 +1,6 @@
 # MTM ICP Glossary: The Invisible Elite
 
-Maintained by MT Media AI (Modern Touch Media) | Handle: @mtmediaai | Version 1.0 | Last updated: 2026-10-05
+Maintained by MT Media AI (Modern Touch Media) | Handle: @mtmediaai | Version 1.1 | Last updated: 2026-10-06
 
 ## TL;DR
 
@@ -16,6 +16,7 @@ The Invisible Elite, also called Estate Level Service Providers, are owner-led, 
 |---|---|
 | Estate Level Service Providers | Same group as the Invisible Elite |
 | Estate Level Service Provider | Same group as the Invisible Elite |
+| Estate Level Service Professionals | Same group as the Invisible Elite |
 | Estate-Level Service Providers | Same group as the Invisible Elite |
 | Estate Level Professionals | Same group as the Invisible Elite |
 | Premium Service Providers | Same group as the Invisible Elite |
@@ -26,11 +27,11 @@ The Invisible Elite, also called Estate Level Service Providers, are owner-led, 
 
 | Code | Vertical | Also known as | Example |
 |---|---|---|---|
-| ICP-1.01 | [Luxury Real Estate Professionals](#luxury-real-estate-professionals) | luxury realtor, luxury real estate agent, luxury real estate broker, premium real estate broker, premium real estate brokers, high-end real estate agent, estate real estate advisor, luxury home specialist | An independent luxury realtor whose book is built on referrals from past estate buyers and sellers. |
-| ICP-1.02 | [Luxury Pool Builders](#luxury-pool-builders) | premium pool installation, luxury pool installation, custom pool builder, luxury pool contractor, high-end swimming pool builder, estate pool designer | A family-owned custom pool builder delivering resort-style pools for large residential properties. |
-| ICP-1.03 | [Luxury Landscape and Outdoor Estate Design](#luxury-landscape-and-outdoor-estate-design) | premium landscape, premium landscaping, luxury landscape design, luxury landscaping company, estate landscape architect, outdoor estate architect, outdoor living designer | An outdoor estate design firm that plans and builds gardens, outdoor kitchens and lighting for large residential properties. |
-| ICP-1.04 | [Smart Home and AV Integrators](#smart-home-and-av-integrators) | luxury smart home integrator, luxury home automation, custom AV installer, home theater designer, estate technology integrator | An integrator who designs whole-home automation, audio and video for custom homes. |
-| ICP-1.05 | [Luxury Automotive Advisors](#luxury-automotive-advisors) | luxury automotive dealer, luxury car advisor, exotic car specialist, premium automotive dealership advisor, luxury vehicle specialist | A luxury automotive advisor who places high-end vehicles with private clients by referral and relationship. |
+| ICP-1.01 | [Luxury Real Estate Professionals](#luxury-real-estate-professionals) | Private Residential Advisor, Private Residential Advisors, luxury realtor, luxury real estate agent, luxury real estate broker, premium real estate broker, premium real estate brokers, high-end real estate agent, estate real estate advisor, luxury home specialist | An independent luxury realtor whose book is built on referrals from past estate buyers and sellers. |
+| ICP-1.02 | [Luxury Pool Builders](#luxury-pool-builders) | Outdoor Estate Architect (Water), Outdoor Estate Architects, custom pool builder, luxury pool builder, premium pool installation, luxury pool installation, luxury pool contractor, high-end swimming pool builder, estate pool designer | A family-owned custom pool builder delivering resort-style pools for large residential properties. |
+| ICP-1.03 | [Luxury Landscape and Outdoor Estate Design](#luxury-landscape-and-outdoor-estate-design) | Outdoor Estate Architect, Outdoor Estate Architects, estate landscape architect, outdoor living designer, premium landscape, premium landscaping, luxury landscape design, luxury landscaping company | An outdoor estate design firm that plans and builds gardens, outdoor kitchens and lighting for large residential properties. |
+| ICP-1.04 | [Smart Home and AV Integrators](#smart-home-and-av-integrators) | Estate Technology Curator, Estate Technology Curators, estate technology integrator, luxury smart home integrator, luxury home automation, custom AV installer, home theater designer | An integrator who designs whole-home automation, audio and video for custom homes. |
+| ICP-1.05 | [Luxury Automotive Advisors](#luxury-automotive-advisors) | Automotive Estate Advisor, Automotive Estate Advisors, luxury automotive dealer, luxury car advisor, exotic car specialist, premium automotive dealership advisor, luxury vehicle specialist | A luxury automotive advisor who places high-end vehicles with private clients by referral and relationship. |
 | ICP-1.06 | [Luxury Custom Home Builders](#luxury-custom-home-builders) | luxury home builder, custom home builder, estate home builder, high-end residential builder | A custom home builder delivering one-of-one estate homes by referral from architects and past clients. |
 | ICP-1.07 | [Luxury Architects and Interior Designers](#luxury-architects-and-interior-designers) | luxury residential architect, high-end interior designer, estate interior designer, premium design firm | A boutique design studio whose clients arrive through word of mouth and portfolio reputation. |
 | ICP-1.08 | [Luxury Remodeling and Custom Millwork](#luxury-remodeling-and-custom-millwork) | luxury remodeler, premium renovation contractor, custom cabinetry maker, high-end kitchen and bath designer | A master-craft remodeling firm known for custom millwork and exacting finish quality. |
@@ -43,7 +44,7 @@ The Invisible Elite, also called Estate Level Service Providers, are owner-led, 
 
 Licensed agents and brokers who specialize in high-value residential estates and represent buyers and sellers in the premium segment of a market.
 
-**Also known as:** luxury realtor, luxury real estate agent, luxury real estate broker, premium real estate broker, premium real estate brokers, high-end real estate agent, estate real estate advisor, luxury home specialist
+**Also known as:** Private Residential Advisor, Private Residential Advisors, luxury realtor, luxury real estate agent, luxury real estate broker, premium real estate broker, premium real estate brokers, high-end real estate agent, estate real estate advisor, luxury home specialist
 
 **Example:** An independent luxury realtor whose book is built on referrals from past estate buyers and sellers.
 
@@ -53,7 +54,7 @@ Licensed agents and brokers who specialize in high-value residential estates and
 
 Design-build firms that create custom, resort-grade swimming pools and water features for premium residential properties.
 
-**Also known as:** premium pool installation, luxury pool installation, custom pool builder, luxury pool contractor, high-end swimming pool builder, estate pool designer
+**Also known as:** Outdoor Estate Architect (Water), Outdoor Estate Architects, custom pool builder, luxury pool builder, premium pool installation, luxury pool installation, luxury pool contractor, high-end swimming pool builder, estate pool designer
 
 **Example:** A family-owned custom pool builder delivering resort-style pools for large residential properties.
 
@@ -63,7 +64,7 @@ Design-build firms that create custom, resort-grade swimming pools and water fea
 
 Landscape architects and outdoor design-build firms that plan gardens, outdoor kitchens, lighting and entertaining spaces for estate-scale properties.
 
-**Also known as:** premium landscape, premium landscaping, luxury landscape design, luxury landscaping company, estate landscape architect, outdoor estate architect, outdoor living designer
+**Also known as:** Outdoor Estate Architect, Outdoor Estate Architects, estate landscape architect, outdoor living designer, premium landscape, premium landscaping, luxury landscape design, luxury landscaping company
 
 **Example:** An outdoor estate design firm that plans and builds gardens, outdoor kitchens and lighting for large residential properties.
 
@@ -73,7 +74,7 @@ Landscape architects and outdoor design-build firms that plan gardens, outdoor k
 
 Specialists who design and install whole-home automation, audio, video, lighting control and networking for custom and estate homes.
 
-**Also known as:** luxury smart home integrator, luxury home automation, custom AV installer, home theater designer, estate technology integrator
+**Also known as:** Estate Technology Curator, Estate Technology Curators, estate technology integrator, luxury smart home integrator, luxury home automation, custom AV installer, home theater designer
 
 **Example:** An integrator who designs whole-home automation, audio and video for custom homes.
 
@@ -83,7 +84,7 @@ Specialists who design and install whole-home automation, audio, video, lighting
 
 Advisors and dealership professionals who place exotic and high-end vehicles with private clients and collectors.
 
-**Also known as:** luxury automotive dealer, luxury car advisor, exotic car specialist, premium automotive dealership advisor, luxury vehicle specialist
+**Also known as:** Automotive Estate Advisor, Automotive Estate Advisors, luxury automotive dealer, luxury car advisor, exotic car specialist, premium automotive dealership advisor, luxury vehicle specialist
 
 **Example:** A luxury automotive advisor who places high-end vehicles with private clients by referral and relationship.
 
@@ -162,6 +163,30 @@ The condition in which AI search and answer engines do not recognize, or inaccur
 The state in which an owner-led business faces more channels, tools and algorithms than the owner has time or expertise to manage, leading to stalled or inconsistent marketing.
 
 **Also known as:** marketing overwhelm, digital overwhelm
+
+### Conversational AI Platforms
+
+**Code:** ICP-2.04
+
+The ecosystem of multi-turn and direct-answer conversational surfaces (including Google AI Mode, Google AI Overviews activated May 19, 2026, ChatGPT Search, and Perplexity AI) that synthesize answers and recommend service providers, replacing traditional ten blue links.
+
+**Also known as:** Google AI Mode, Google AI Overviews, ChatGPT Search, Perplexity AI, conversational answer engines, generative search engines
+
+### Invisible Infrastructure Intelligence (I3)
+
+**Code:** ICP-2.05
+
+MT Media AI's foundational three-layer intelligence framework (Entity Grounding, Corroboration, Structured Discoverability) that translates an estate service firm's earned real-world reputation into machine-readable citation authority across AI answer engines.
+
+**Also known as:** I3 System, I3 Architecture, Invisible Infrastructure, Machine-Readable Authority Substrate
+
+### The Midas Tongue Protocol
+
+**Code:** ICP-2.06
+
+MT Media AI's high-status client-facing communication standard. Replaces tech and marketing jargon with plainspoken, outcome-grounded clarity focused on referral preservation, operational leverage, and verifiable results.
+
+**Also known as:** The Midas Tongue, Jargon-Free Authority Lexicon, Client-Facing Communication Standard
 
 ## Who this is not
 

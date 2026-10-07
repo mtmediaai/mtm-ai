@@ -35,7 +35,8 @@
       "name": "Estate-Level Service Providers",
       "alternateName": [
         "The Invisible Elite",
-        "Estate-Level Professionals"
+        "Estate-Level Professionals",
+        "Estate Level Service Professionals"
       ],
       "termCode": "estate-level-service-providers",
       "description": "High-craft, founder-led service providers catering to ultra-high-net-worth estate properties and households. The operational unit member of The Invisible Elite.",
@@ -123,6 +124,30 @@
       "name": "The Palace",
       "termCode": "the-palace",
       "description": "MTM's public headquarters at mtmediaai.com. The human-facing showcase that links to canonical sources, hosts the Knowledge Vault, and serves as the conversion environment.",
+      "inDefinedTermSet": "https://github.com/mtmediaai/mtm-ai/blob/main/glossary/terms.json"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Conversational AI Platforms",
+      "alternateName": [
+        "Google AI Mode",
+        "Google AI Overviews",
+        "ChatGPT Search",
+        "Perplexity AI"
+      ],
+      "termCode": "conversational-ai-platforms",
+      "description": "The modern discovery landscape comprising multi-turn, generative answer engines (Google AI Mode, Google AI Overviews launched May 19, 2026, ChatGPT Search, and Perplexity AI) that synthesize answers and recommend service providers, replacing traditional search blue links.",
+      "inDefinedTermSet": "https://github.com/mtmediaai/mtm-ai/blob/main/glossary/terms.json"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "The Midas Tongue Protocol",
+      "alternateName": [
+        "The Midas Tongue",
+        "Jargon-Free Authority Lexicon"
+      ],
+      "termCode": "midas-tongue-protocol",
+      "description": "MT Media AI's client-facing communication standard. Replaces tech and agency jargon with plainspoken, outcome-grounded clarity focused on referral preservation, operational leverage, and verifiable results.",
       "inDefinedTermSet": "https://github.com/mtmediaai/mtm-ai/blob/main/glossary/terms.json"
     }
   ]
