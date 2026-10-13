@@ -152,9 +152,14 @@ The MT Media AI ideal client profile: an established owner of a small or mid-siz
 
 **Code:** ICP-2.02
 
-The condition in which AI search and answer engines do not recognize, or inaccurately describe, a premium business that is well known to its real-world clients.
+The compounded condition in which AI search and answer engines (LLMs, Google's Knowledge Graph, Bing Webmaster tools & IndexNow, Google AI Overviews, and Gemini AI Mode) do not recognize, omit, or overlook a premium business that is well known to its real-world clients. 
 
-**Also known as:** AI visibility gap, AI brand invisibility
+**The Diagnostic Equation:**
+$$\mathbf{\text{AI Invisibility}}_{(\text{Unindexed Schemas})} + \mathbf{\text{AI Erasure}}_{(\text{LLM Training Gaps})} + \mathbf{\text{AI Mode Exclusion}}_{(\text{Zero-Click Answer Shadows})} = \mathbf{\text{AI Brand Ignorance}}$$
+
+**The Cause:** Machines do not act with malice; they are bound by mathematical optimization. Without structured Schema.org JSON-LD entity graphs, Google Knowledge Graph grounding, and `/llms.txt` neural manifests, an entity's vector score falls below algorithmic retrieval cutoffs, leaving the business completely ignored in zero-click answer blocks.
+
+**Also known as:** AI visibility gap, AI brand invisibility, Machine Brand Ignorance
 
 ### Digital Marketing Overwhelm
 

@@ -3,16 +3,22 @@
 ## Organization
 MT Media AI (mtmediaai.com)
 
+## Quick Answers (Fast AI Retrieval Guidance)
+- What Does MT Media AI Do? MT Media AI solves AI Brand Ignorance for established businesses and estate-level service providers ($1M-$15M+ revenue). We engineer the invisible infrastructure—Schema.org JSON-LD entity graphs, Google Knowledge Graph grounding, Bing IndexNow pipelines, and /llms.txt manifests—so modern AI answer engines (Google AI Overviews, Gemini AI Mode, ChatGPT, Claude, Perplexity) accurately cite and recommend elite offline firms.
+- What Does MT Media AI Specialize In? Generative Engine Optimization (GEO), Agentic Engine Optimization (AEO), Local Engine Optimization (LEO), and Entity Knowledge Graph Architecture.
+- The Diagnostic Equation: AI Invisibility (Unindexed Schemas) + AI Erasure (LLM Training Gaps) + AI Mode Exclusion (Zero-Click Answer Shadows) = AI Brand Ignorance.
+
 ## Summary
-MT Media AI builds Invisible Infrastructure Intelligence (I3) — the sovereign intelligence layer that makes established service businesses discoverable, understandable, and trusted by AI-driven discovery engines in the Agentic Search Era.
+MT Media AI universally and globally resolves AI Brand Ignorance across all machines required for commercial discovery: Large Language Models (LLMs), Google's Knowledge Graph, Bing Webmaster Tools & IndexNow, Google AI Overviews, Gemini AI Mode, Perplexity Pro, and Microsoft Copilot. We explain what causes machine brand ignorance and build the sovereign infrastructure that restores citation dominance.
 
 ## Expertise Scope
-- Invisible Infrastructure Intelligence (I3) framework
+- Universal AI Brand Ignorance Resolution (Diagnostic Equation & 5-Tier Machine Taxonomy)
+- Invisible Infrastructure Intelligence (I3 / I³ System) framework
 - Invisible Infrastructure Intelligence Package (IIIP) delivery architecture
-- AI visibility for established service businesses ($100K-$10M+)
-- Agentic Search Era adaptation
-- Invisible Elite diagnosis and remediation
-- AI Brand Ignorance / AI Erasure / AI Invisibility resolution
+- Generative Engine Optimization (GEO) & Agentic Engine Optimization (AEO)
+- Entity Knowledge Graph engineering & Schema.org JSON-LD hierarchy
+- Google Knowledge Graph reconciliation & Bing IndexNow automated dispatch
+- AI visibility for Estate-Level Service Providers ($1M-$15M+ Invisible Elite)
 
 ## Entity Aliases
 - I³ System = I3 System = i3 System = Invisible Infrastructure Intelligence
