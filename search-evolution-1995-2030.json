@@ -1,0 +1,633 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://mtmediaai.com/#organization",
+      "name": "MT Media AI",
+      "alternateName": [
+        "Modern Touch Media",
+        "MTM"
+      ],
+      "url": "https://mtmediaai.com",
+      "logo": "https://mtmediaai.com/logo.png",
+      "slogan": "MINDSET. TECH. MASTERY.",
+      "foundingDate": "2022",
+      "founder": {
+        "@type": "Person",
+        "@id": "https://mtmediaai.com/#kareem-daniel",
+        "name": "Kareem Daniel",
+        "jobTitle": "Founder & Principal Architect",
+        "url": "https://kareem.mtmediaai.com"
+      },
+      "description": "MT Media AI deploys the I³ System (Invisible Infrastructure Intelligence) to close the gap between the physical reputation and machine-readable entity footprint of established luxury and estate-level service businesses (The Invisible Elite).",
+      "sameAs": [
+        "https://github.com/mtmediaai/mtm-ai",
+        "https://linkedin.com/company/mtmediaai",
+        "https://twitter.com/mtmediaai"
+      ],
+      "subOrganization": {
+        "@type": "Organization",
+        "@id": "https://mtmediaai.com/#the-forge",
+        "name": "The Forge",
+        "description": "MT Media AI's public-facing four-node adaptive business intelligence collective: Goldie (The Spark), Roman (The Spine), Nina (The Shield), and Echo (The Shadow)."
+      }
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://mtmediaai.com/#mtm-terminology",
+      "name": "MT Media AI Public Knowledge & Terminology Registry",
+      "url": "https://github.com/mtmediaai/mtm-ai/tree/main/glossary",
+      "publisher": {
+        "@id": "https://mtmediaai.com/#organization"
+      },
+      "hasDefinedTerm": [
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://mtmediaai.com/#invisible-elite",
+          "name": "The Invisible Elite",
+          "termCode": "MTM-TERM-001",
+          "description": "Established luxury and estate-level service business owners and operators who have built exceptional physical reputations through decades of craft, referrals, and community trust, yet remain unindexed, ambiguous, or omitted across AI-mediated search and recommendation systems."
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://mtmediaai.com/#ai-brand-ignorance",
+          "name": "AI Brand Ignorance",
+          "termCode": "MTM-TERM-002",
+          "description": "The operational condition in which modern retrieval and answer engines cannot confidently identify, disambiguate, verify, or recommend a real-world category leader due to missing entity schemas, fragmented corroboration, and zero-click answer exclusion. Expressed as: AI Invisibility + AI Erasure + AI Mode Exclusion = AI Brand Ignorance."
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://mtmediaai.com/#i3-system",
+          "name": "Invisible Infrastructure Intelligence (I³ System)",
+          "termCode": "MTM-TERM-003",
+          "description": "MT Media AI's canonical diagnostic and remediation methodology that translates an established operator's offline reputation into machine-legible Entity Clarity, Corroboration Architecture, and Structured Discoverability."
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://mtmediaai.com/#agentic-search-era",
+          "name": "Agentic Search Era",
+          "termCode": "MTM-TERM-004",
+          "description": "The stage of information retrieval—explicitly formalized at Google I/O on May 19, 2026—in which search engines transition from static link directories and passive answer summaries into multimodal, reasoning-driven agents capable of multi-step query fan-out, tool invocation (WebMCP/MCP), and direct business action."
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://mtmediaai.com/#seo-2-0",
+          "name": "SEO 2.0",
+          "termCode": "MTM-TERM-005",
+          "description": "MT Media AI's operational framing (adopted during stealth research in late 2022) describing the evolution of search from keyword-and-link ranking toward distributed, entity-first, answer-led, and agentic discovery across traditional SERPs, AI Overviews, AI Mode, Perplexity, and ChatGPT Search."
+        }
+      ]
+    },
+    {
+      "@type": [
+        "Dataset",
+        "TechArticle"
+      ],
+      "@id": "https://github.com/mtmediaai/mtm-ai/blob/main/search-evolution.json",
+      "name": "The Evolution of Search: From Analog Directories to the Agentic Search Era (1995–2030)",
+      "headline": "How Google Changed Search… Again: The Complete Machine-Readable Timeline & Gap Analysis for the Invisible Elite",
+      "version": "2.0.0",
+      "dateCreated": "2026-08-05",
+      "dateModified": "2026-10-15",
+      "datePublished": "2026-10-15",
+      "inLanguage": "en-US",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": {
+        "@id": "https://mtmediaai.com/#kareem-daniel"
+      },
+      "publisher": {
+        "@id": "https://mtmediaai.com/#organization"
+      },
+      "creditText": "Authored by Kareem Daniel (Founder & Principal Architect, MT Media AI); Reviewed by The Forge (Goldie, Roman, Nina, Echo).",
+      "isPartOf": [
+        {
+          "@type": "WebSite",
+          "@id": "https://mtmediaai.com/#palace",
+          "name": "The Palace — MT Media AI",
+          "url": "https://mtmediaai.com"
+        },
+        {
+          "@type": "CodeRepository",
+          "@id": "https://github.com/mtmediaai/mtm-ai",
+          "name": "mtm-ai (MT Media AI Public Knowledge Base)",
+          "url": "https://github.com/mtmediaai/mtm-ai"
+        }
+      ],
+      "about": [
+        {
+          "@id": "https://mtmediaai.com/#invisible-elite"
+        },
+        {
+          "@id": "https://mtmediaai.com/#ai-brand-ignorance"
+        },
+        {
+          "@id": "https://mtmediaai.com/#i3-system"
+        },
+        {
+          "@id": "https://mtmediaai.com/#agentic-search-era"
+        }
+      ],
+      "description": "Canonical, fact-checked historical and technical dataset documenting the evolution of human and machine discovery from physical phone directories (White/Yellow Pages) and PageRank through Panda, Penguin, Hummingbird, RankBrain, BERT, MUM, Perplexity AI, Google AI Overviews, AI Mode, WebMCP, and Gemini 4 Argon—with explicit impact diagnostics for established luxury service businesses (The Invisible Elite)."
+    }
+  ],
+  "metadata": {
+    "asset_id": "MTM-ASSET-SEARCH-EVOLUTION-001",
+    "canonical_repo": "https://github.com/mtmediaai/mtm-ai",
+    "canonical_files": [
+      "search-evolution.md",
+      "search-evolution.json"
+    ],
+    "mcp_tool_binding": "get_search_evolution_timeline()",
+    "last_verified": "2026-10-15",
+    "verification_standard": "Nina Filter (Public Boundary Cleared) + Forge Fact-Checking HQ2 (Claims Verified vs. Watchlist Separated)",
+    "CrossReferences": {
+      "episode_1": {
+        "series": "AI: The Aftermath — Chapter 1: The Invisible Elite",
+        "episode": "Episode 1: The Mirror",
+        "subtitle": "The Way Google Just Changed Search… AGAIN! And What Estate-Level Service Professionals Must Do.",
+        "anchor_url": "https://mtmediaai.com/archives/episode-1-the-mirror"
+      },
+      "pillar_page": {
+        "title": "How Google Changed Search… Again",
+        "anchor_url": "https://mtmediaai.com/how-google-changed-search-again"
+      },
+      "palace_faq": {
+        "question": "Why does MTM talk about SEO 2.0 / AEO / GEO?",
+        "anchor_url": "https://mtmediaai.com/the-invisible-elite#faq-seo-2-0"
+      }
+    }
+  },
+  "eras": [
+    {
+      "era_id": "ERA-0",
+      "era_number": 0,
+      "name": "The Phone Book Nostalgia Prologue",
+      "timeframe": "Pre-1995 Nostalgia Prologue",
+      "paradigm": "Physical Taxonomy & Alphabetical Proximity",
+      "core_question": "Who is listed in the book beside the phone?",
+      "dominant_intermediary": "The White Pages & The Yellow Pages",
+      "forge_lead": "Goldie (The Spark)",
+      "invisible_elite_state": "Protected by Physical Scarcity & Word-of-Mouth",
+      "summary": "Before search lived in your pocket, it lived beside your phone. Discovery operated on annual print cycles, alphabetical order, and neighborhood referrals."
+    },
+    {
+      "era_id": "ERA-1",
+      "era_number": 1,
+      "name": "Lexical Web & Link-Graph Era",
+      "timeframe": "1994–2010",
+      "paradigm": "Strings, Crawl Speed & Backlink Citations",
+      "core_question": "Do you have a website, and how many pages link to it?",
+      "dominant_intermediary": "Early Web Directories, Google PageRank & 10 Blue Links",
+      "forge_lead": "Roman (The Spine)",
+      "invisible_elite_state": "Early Digital Divide — Craft Leaders Ignore the Web While Early Adopters Claim Domain Authority",
+      "summary": "Link-based authority (PageRank) replaced manual web directories, followed by Universal Search (blending Maps/Images) and the Caffeine real-time indexing rewrite."
+    },
+    {
+      "era_id": "ERA-2",
+      "era_number": 2,
+      "name": "Quality, Anti-Spam & Entity Foundations",
+      "timeframe": "2011–2014",
+      "paradigm": "Things, Not Strings — Content Quality, Link Integrity & Local Proximity",
+      "core_question": "Is this content genuinely useful, and is this a real-world entity in this city?",
+      "dominant_intermediary": "Panda, Penguin, Knowledge Graph, Hummingbird & Pigeon",
+      "forge_lead": "Nina (The Shield)",
+      "invisible_elite_state": "First Structural Gap — Local Packs & Entity Panels Form While Artisans Rely Solely on Offline Referrals",
+      "summary": "Google dismantled content farms (Panda) and link schemes (Penguin) while introducing the Knowledge Graph (2012), Hummingbird semantic search (2013), and Pigeon local integration (2014)."
+    },
+    {
+      "era_id": "ERA-3",
+      "era_number": 3,
+      "name": "Machine Learning, Mobile-First & Transformer Context",
+      "timeframe": "2015–2021",
+      "paradigm": "Vector Embeddings, Mobile UX, Micro-Spatial Grids & Bidirectional NLP",
+      "core_question": "What does the user actually mean in context, on mobile, in this exact micro-neighborhood?",
+      "dominant_intermediary": "RankBrain, Mobile-First Index, Possum S2 Cells, BERT & MUM",
+      "forge_lead": "Roman (The Spine)",
+      "invisible_elite_state": "The 3.2-Mile Proximity Cliff — Unstructured Local Profiles Drop Out of S2 Micro-Grids & Conversational Queries",
+      "summary": "Machine learning entered core ranking via RankBrain (2015), Neural Matching (2018), BERT (2019), Passage Ranking (2021), and MUM (2021), while mobile-first indexing and Possum micro-grids reshaped local discovery."
+    },
+    {
+      "era_id": "ERA-4",
+      "era_number": 4,
+      "name": "E-E-A-T, Answer Engines & The Stealth Inflection",
+      "timeframe": "2022–2024",
+      "paradigm": "People-First Experience, Citation-Led Synthesis & Zero-Click Answers",
+      "core_question": "Which verified sources can the model synthesize into a single direct answer?",
+      "dominant_intermediary": "Helpful Content / E-E-A-T, Perplexity AI, ChatGPT Search, SGE / AI Overviews & MCP",
+      "forge_lead": "Echo (The Shadow)",
+      "invisible_elite_state": "Onset of AI Brand Ignorance — Referral Pipelines Acquire a 'Machine Leg' That Quietly Vetoes Unstructured Operators",
+      "summary": "Perplexity's December 2022 launch signaled the shift from link lists to citation-led answer synthesis—triggering MT Media AI's 4-year stealth R&D phase as Google rolled out E-E-A-T, Helpful Content, and AI Overviews."
+    },
+    {
+      "era_id": "ERA-5",
+      "era_number": 5,
+      "name": "The Agentic Search Era & Frontier Reasoning",
+      "timeframe": "2025–2026",
+      "paradigm": "Query Fan-Out, Multimodal Reasoning, WebMCP Toolkits & Autonomous Action",
+      "core_question": "Who does the machine verify, contact, and recommend on the buyer's behalf?",
+      "dominant_intermediary": "Google AI Mode, AI Overviews (2.5B+ MAU), WebMCP, A2A, Perplexity Trust Badges & Gemini 4 Argon",
+      "forge_lead": "The Full Forge (Echo, Goldie, Roman, Nina)",
+      "invisible_elite_state": "Acute AI Brand Ignorance vs. Sovereign I³ Immunity — Unstructured Titans Are Skipped; Entity-Verified Kings Monopolize Recommendations",
+      "summary": "At Google I/O on May 19, 2026, the Agentic Search Era became explicit: AI Mode (1B+ users) and AI Overviews (2.5B+ users) merged into continuous multimodal flows alongside WebMCP, followed in October 2026 by Gemini 4 Argon frontier reasoning."
+    },
+    {
+      "era_id": "ERA-6",
+      "era_number": 6,
+      "name": "The Autonomous & Spatial Intelligence Horizon (Watchlist)",
+      "timeframe": "2027–2030+",
+      "paradigm": "Zero-UI Agent-to-Agent (A2A) Commerce, Cryptographic Provenance & Spatial Telemetry",
+      "core_question": "Can the buyer's personal agent autonomously verify, negotiate, and book with your business agent?",
+      "dominant_intermediary": "A2A Concierge Networks, WebMCP Endpoints, Spatial S2 Telemetry & Cryptographic Proof Ledgers",
+      "forge_lead": "Nina (The Shield) & Echo (The Shadow)",
+      "invisible_elite_state": "The Ark Network Standard — Sealed 5-Seat Zip Code Ecosystems Serving as Pre-Verified Machine Trust Infrastructure",
+      "summary": "Strategic projection watchlist: discovery progresses from conversational recommendation to autonomous agent-to-agent execution, where verified availability, structured pricing ranges, and spatial entity graphs govern high-value commerce."
+    }
+  ],
+  "milestones": [
+    {
+      "id": "M-PROLOGUE",
+      "year": "Pre-1995 Nostalgia Prologue",
+      "exact_date": "Pre-1995 Shared Memory (The Kitchen Counter Phone Book)",
+      "title": "The White Pages & Yellow Pages (Analog Directory Era)",
+      "era_id": "ERA-0",
+      "origin_status": "Gap Analysis Addition (Episode 1 'The Mirror' Foundation)",
+      "evidence_class": "E4 - Multi-Source Historical Convergence",
+      "category": "Analog Directory",
+      "focus": "Physical listing, alphabetical placement, and category lookup",
+      "technical_mechanism": "Static annual print distribution organized by residential surname (White Pages) and commercial trade taxonomy (Yellow Pages).",
+      "verified_facts": "Before search lived in your pocket, it lived beside your phone. Discovery required physical page-turning, category scanning, and word-of-mouth corroboration.",
+      "invisible_elite_impact": "Estate-level craftsmen built multi-decade empires on handshake referrals and a single bold listing. Because local competition was physically bounded, offline excellence alone was sufficient.",
+      "mtm_application": "Anchors the opening beat of Episode 1 ('The Mirror'): showing that while the medium shifted from heavy paper books to links to AI agents, the buyer's core need—'Help me find the right person to trust'—never changed.",
+      "source_url": "https://en.wikipedia.org/wiki/Yellow_pages",
+      "source_label": "Wikipedia — History of Yellow Pages"
+    },
+    {
+      "id": "M-1998",
+      "year": "1998–2001",
+      "exact_date": "September 4, 1998",
+      "title": "Early Google & PageRank Link-Graph Revolution",
+      "era_id": "ERA-1",
+      "origin_status": "Core Keep Milestone (Verified & Expanded)",
+      "evidence_class": "E4 - Multi-Source Historical Convergence",
+      "category": "Core Architecture",
+      "focus": "Link-based authority (PageRank) & open-web crawling",
+      "technical_mechanism": "Replaced human-curated directories (Yahoo!) and pure keyword-frequency engines (AltaVista) by treating hyperlinks as weighted academic citations (PageRank) across the open web graph.",
+      "verified_facts": "Google incorporated on September 4, 1998. The '10 blue links' interface established the foundational web discovery contract: type keywords, receive ranked document links.",
+      "invisible_elite_impact": "Shifted the baseline question from 'Are you in the phone book?' to 'Can anyone find your website?' Masters of physical craft who dismissed the web as a novelty lost early digital real estate.",
+      "mtm_application": "Referenced in Episode 1 Beat 1 ('The 2001 Wave'): proving that reputation without discoverability becomes a private achievement whenever the intermediary changes.",
+      "source_url": "https://en.m.wikipedia.org/wiki/Google_Caffeine",
+      "source_label": "Google Search History & Architecture"
+    },
+    {
+      "id": "M-2003",
+      "year": "2003–2010",
+      "exact_date": "Nov 2003 (Florida) / May 16, 2007 (Universal) / June 9, 2010 (Caffeine)",
+      "title": "Florida, Universal Search & The Caffeine Index",
+      "era_id": "ERA-1",
+      "origin_status": "Gap Analysis Addition (Critical Pre-Panda Infrastructure)",
+      "evidence_class": "E1/E4 - Official Google Documentation & Industry Consensus",
+      "category": "Infrastructure & Vertical Blending",
+      "focus": "Anti-keyword stuffing, blended media/local verticals, and real-time index freshness",
+      "technical_mechanism": "Florida (Nov 2003) penalized crude keyword repetition; Universal Search (May 16, 2007) injected Maps, Images, Video, and News directly into organic SERPs; Caffeine (June 9, 2010) rebuilt Google's indexing pipeline for continuous crawl updates and 50% fresher results.",
+      "verified_facts": "Universal Search broke the '10 plain blue links' monopoly in May 2007 by introducing Local/Maps packs; Caffeine scaled Google's index to process hundreds of thousands of pages per second in parallel.",
+      "invisible_elite_impact": "Universal Search introduced the earliest iteration of local map packs—meaning local service businesses now competed on geographic metadata and visual assets, not just text pages.",
+      "mtm_application": "Demonstrates in 'How Google Changed Search… Again' that Google has been progressively moving answers closer to the SERP surface since 2007.",
+      "source_url": "https://developers.google.com/search/blog/2010/06/our-new-search-index-caffeine",
+      "source_label": "Google Search Central — Our New Search Index: Caffeine"
+    },
+    {
+      "id": "M-2011",
+      "year": "2011",
+      "exact_date": "February 24, 2011",
+      "title": "Google Panda Update (Content Quality Filter)",
+      "era_id": "ERA-2",
+      "origin_status": "Core Keep Milestone (Fact-Checked)",
+      "evidence_class": "E1/E4 - Official Google Announcement & Verified Industry Data",
+      "category": "Algorithmic Quality System",
+      "focus": "Content quality, originality, and elimination of thin/duplicate content farms",
+      "technical_mechanism": "Site-wide and page-level quality classifier trained against human quality-rater evaluations to demote thin, scraped, ad-heavy, or low-value content; folded into Google's core ranking algorithm in early 2016.",
+      "verified_facts": "Officially announced February 24, 2011 (rollout began Feb 23); confirmed to impact 11.8% of U.S. English search queries at launch.",
+      "invisible_elite_impact": "Punished agencies that sold cheap, templated 'city-page spam' to local businesses, proving that volume without substantive expertise is a liability.",
+      "mtm_application": "Validates MTM's 'Context Completeness Over Content Volume' law in mtm-seo-visibility: more thin pages never beat dense, authoritative first-party proof.",
+      "source_url": "https://searchengineland.com/google-panda-update-version-24-1-2-of-search-queries-impacted-146149",
+      "source_label": "Search Engine Land — Google Panda 11.8% Query Impact Record"
+    },
+    {
+      "id": "M-2012-PENGUIN",
+      "year": "2012",
+      "exact_date": "April 24, 2012 (Penguin 1.0) / September 23, 2016 (Penguin 4.0 Core)",
+      "title": "Google Penguin Update (Link Spam & Manipulation Defense)",
+      "era_id": "ERA-2",
+      "origin_status": "Core Keep Milestone (Fact-Checked & Date-Completed)",
+      "evidence_class": "E1 - Official Google Search Central Documentation",
+      "category": "Anti-Spam System",
+      "focus": "Manipulative link schemes, paid link networks, and over-optimized anchor text",
+      "technical_mechanism": "Targeted unnatural backlink profiles Attempting to game PageRank. Initially ran as periodic batch refreshes (~3.1% of queries impacted at launch); upgraded to Penguin 4.0 on September 23, 2016 as a real-time, granular signal inside the core algorithm.",
+      "verified_facts": "Launched April 24, 2012 affecting ~3.1% of English queries; transitioned to real-time core integration on September 23, 2016.",
+      "invisible_elite_impact": "Exposed commodity SEO retainers built on link farms, reinforcing why real-world trade associations, municipal registries, and genuine press corroboration (E3/E4 evidence) are non-negotiable.",
+      "mtm_application": "Grounds the Corroboration Architecture phase of the I³ System™: authentic third-party entity validation over synthetic backlink volume.",
+      "source_url": "https://developers.google.com/search/blog/2016/09/penguin-is-now-part-of-our-core",
+      "source_label": "Google Search Central — Penguin is Now Part of Our Core Algorithm"
+    },
+    {
+      "id": "M-2012-KG",
+      "year": "2012",
+      "exact_date": "May 16, 2012 (Knowledge Graph) & Feb 27, 2012 (Venice)",
+      "title": "Google Knowledge Graph ('Things, Not Strings') & Venice Local Update",
+      "era_id": "ERA-2",
+      "origin_status": "Gap Analysis Addition (Critical Missing Link for Entity SEO)",
+      "evidence_class": "E1 - Official Google Blog Announcement",
+      "category": "Semantic & Entity Infrastructure",
+      "focus": "Entity resolution, structured relationships, and localized organic intent",
+      "technical_mechanism": "Knowledge Graph (May 16, 2012) introduced a graph database of real-world entities (people, places, organizations) and their predicates, powering Knowledge Panels beside SERPs; Venice (Feb 2012) tied organic rankings to user IP/location.",
+      "verified_facts": "Announced May 16, 2012 under the doctrine 'Things, not strings'—marking the exact birth of Entity SEO and Schema.org knowledge graph reconciliation.",
+      "invisible_elite_impact": "When a machine cannot resolve a business as a distinct, disambiguated 'Thing' in its Knowledge Graph, the business suffers Understanding Failure (Problem B in MTM's diagnostic hierarchy).",
+      "mtm_application": "Direct historical foundation for MTM's Entity Clarity layer (Phase 1 of the I³ System™) and the @graph architecture deployed across The Palace.",
+      "source_url": "https://blog.google/products-and-platforms/products/search/introducing-knowledge-graph-things-not/",
+      "source_label": "Official Google Blog — Introducing the Knowledge Graph: Things, Not Strings"
+    },
+    {
+      "id": "M-2013",
+      "year": "2013",
+      "exact_date": "August 2013 (Rollout) / September 26, 2013 (Announcement)",
+      "title": "Google Hummingbird (Semantic & Conversational Core Rewrite)",
+      "era_id": "ERA-2",
+      "origin_status": "Core Keep Milestone (Fact-Checked)",
+      "evidence_class": "E4 - Multi-Source Convergence",
+      "category": "Core Search Engine Rewrite",
+      "focus": "Semantic query understanding, natural-language processing, and conversational search",
+      "technical_mechanism": "Complete overhaul of the core retrieval engine to evaluate full-sentence meaning and entity relationships rather than matching isolated keywords in a vacuum.",
+      "verified_facts": "Deployed in August 2013 and announced September 26, 2013; impacted approximately 90% of global searches.",
+      "invisible_elite_impact": "Paved the way for voice search and natural-language buyer questions ('Who builds custom architectural pools in The Woodlands?') rather than fragmented two-word strings.",
+      "mtm_application": "Explains why MTM structures content around Answer Architecture (AGO) and natural conversational Q&A blocks rather than legacy keyword density.",
+      "source_url": "https://www.theguardian.com/technology/2013/sep/27/google-biggest-algorithm-change-hummingbird",
+      "source_label": "The Guardian — Google Introduces Hummingbird Algorithm Change"
+    },
+    {
+      "id": "M-2014",
+      "year": "2014",
+      "exact_date": "July 24, 2014",
+      "title": "Google Pigeon Update (Local Search & Maps Unification)",
+      "era_id": "ERA-2",
+      "origin_status": "Gap Analysis Addition (Essential for Local Service Providers)",
+      "evidence_class": "E4 - Multi-Source Industry Convergence",
+      "category": "Local & Geospatial Search",
+      "focus": "Linking local pack rankings to traditional web authority and hyper-local distance radii",
+      "technical_mechanism": "Connected Google Maps / Local Pack algorithms directly to core web ranking signals (domain authority, backlinks, on-page structure) while narrowing geographic radius calculation.",
+      "verified_facts": "Rolled out July 24, 2014 in the U.S., reshaping local directory citations and neighborhood-level pack visibility.",
+      "invisible_elite_impact": "Created the link between website entity strength and Google Maps pack placement—meaning a weak website directly dragged down local map discoverability.",
+      "mtm_application": "Supports MTM's Local + Place Visibility protocol and explains why a standalone Google Business Profile covers only ~20% of what modern AI search requires.",
+      "source_url": "https://www.vdigitalservices.com/googles-pigeon-update-a-look-back-on-it-impact/",
+      "source_label": "V Digital Services — Google Pigeon Update Analysis"
+    },
+    {
+      "id": "M-2015",
+      "year": "2015",
+      "exact_date": "October 26, 2015",
+      "title": "Google RankBrain (First Deep Machine Learning System in Search)",
+      "era_id": "ERA-3",
+      "origin_status": "Core Keep Milestone (Fact-Checked)",
+      "evidence_class": "E4 - Multi-Source Industry Convergence",
+      "category": "Machine Learning & Vector Retrieval",
+      "focus": "Machine learning for ambiguous, multi-word, or never-before-seen query interpretation",
+      "technical_mechanism": "Mapped written language into mathematical vector embeddings, allowing Google to infer intent for the ~15% of daily queries it had never encountered before and to dynamically weight ranking signals by query class.",
+      "verified_facts": "Confirmed October 26, 2015 after months of live testing; quickly became one of Google's top three ranking signals.",
+      "invisible_elite_impact": "Shifted search from deterministic keyword rules to probabilistic vector similarity—the exact mathematical mechanism that causes low-signal local brands to fall below retrieval thresholds.",
+      "mtm_application": "Illustrates the mathematical root of 'AI Brand Ignorance': machines do not hold malice; they ignore entities whose vector representations are too sparse to pass confidence thresholds.",
+      "source_url": "https://www.americaneagle.com/insights/blog/post/google-algorithm-updates-timeline",
+      "source_label": "AmericanEagle — Google Search Algorithm Updates Timeline"
+    },
+    {
+      "id": "M-2016",
+      "year": "2015–2016",
+      "exact_date": "Apr 21, 2015 (Mobilegeddon) / Sept 1, 2016 (Possum) / Nov 4, 2016 (Mobile-First)",
+      "title": "Mobile-First Indexing, AMP & Possum Micro-Spatial Filtering",
+      "era_id": "ERA-3",
+      "origin_status": "Core Keep Milestone + Gap Analysis (Possum Local Filter Added)",
+      "evidence_class": "E1/E4 - Official Google Search Central & Local SEO Records",
+      "category": "Mobile UX & Geospatial Partitioning",
+      "focus": "Smartphone-first crawling, page speed, and micro-spatial local filtering",
+      "technical_mechanism": "Mobilegeddon (Apr 21, 2015) and Mobile-First Indexing (announced Nov 4, 2016; universal by 2020–2023) switched Googlebot to crawl the mobile DOM as primary. Possum (Sept 1, 2016) introduced strict physical proximity and affiliation filtering in local packs.",
+      "verified_facts": "Google announced Mobile-First Indexing on November 4, 2016. Possum launched September 1, 2016, filtering duplicate/adjacent local listings and penalizing businesses outside strict municipal boundaries.",
+      "invisible_elite_impact": "Created the '3.2-Mile Proximity Cliff' and S2 micro-cell partitioning: estate builders or luxury specialists slightly outside a city boundary or with slow, desktop-era websites vanished from affluent mobile searches.",
+      "mtm_application": "Directly powers MTM's S2 Cell Micro-Spatial Partitioning doctrine and the 3.2-Mile Proximity Falloff diagnostic inside ASIS and the I³ Audit.",
+      "source_url": "https://developers.google.com/search/blog/2016/11/mobile-first-indexing",
+      "source_label": "Google Search Central — Mobile-First Indexing Announcement"
+    },
+    {
+      "id": "M-2019",
+      "year": "2019",
+      "exact_date": "October 25, 2019",
+      "title": "Google BERT (Bidirectional Transformer Modeling Breakthrough)",
+      "era_id": "ERA-3",
+      "origin_status": "Core Keep Milestone (Fact-Checked & Doctrinally Highlighted)",
+      "evidence_class": "E1/E4 - Official Google Research & Search Documentation",
+      "category": "Transformer NLP Breakthrough",
+      "focus": "Deep bidirectional contextual language understanding",
+      "technical_mechanism": "Applied Google's open-sourced Transformer architecture (Bidirectional Encoder Representations from Transformers) to parse words in relation to all other words in a sentence simultaneously—capturing subtle prepositions ('to' vs. 'for'), negation, and conversational nuance.",
+      "verified_facts": "Rolled out October 2019 affecting ~10% of U.S. queries initially. As codified in MTM doctrine, BERT is not a penalty 'update' like Panda, but a foundational Transformer modeling breakthrough that preceded LLM-driven search.",
+      "invisible_elite_impact": "Allowed search engines to comprehend complex, high-intent executive queries ('relocating to The Woodlands private estate builder with custom architectural design') as unified intent rather than disconnected keywords.",
+      "mtm_application": "Featured in the timeline and Palace FAQ as the direct architectural bridge between traditional search algorithms and modern Large Language Model (LLM) retrieval.",
+      "source_url": "https://www.bespoke-digital.co.uk/guides/how-bert-the-helpful-content-update-and-eeat-impact-seo",
+      "source_label": "Bespoke Digital — BERT, Helpful Content & E-E-A-T Technical Guide"
+    },
+    {
+      "id": "M-2021",
+      "year": "2020–2022",
+      "exact_date": "Feb 2021 (Passage Ranking) / May 2021 (MUM) / Aug & Dec 2022 (Helpful Content & E-E-A-T)",
+      "title": "Passage Ranking, MUM, Helpful Content & E-E-A-T Formalization",
+      "era_id": "ERA-4",
+      "origin_status": "Core Keep Milestone + Gap Analysis (Passage Ranking, MUM & March 2024 Core Integration)",
+      "evidence_class": "E1 - Official Google Search Central Documentation",
+      "category": "Quality, Passage Extraction & Multimodal Models",
+      "focus": "Sub-page passage extraction, multimodal understanding, people-first content, and Experience-Expertise-Authoritativeness-Trustworthiness (E-E-A-T)",
+      "technical_mechanism": "Passage Ranking (Feb 2021) indexed granular paragraphs inside long pages; MUM (May 2021) introduced 1,000x BERT scale across 75 languages and multimodal inputs; Helpful Content (Aug 2022) and E-E-A-T (Dec 2022) penalized search-engine-first fluff, before Helpful Content merged into the Core Ranking System in March 2024.",
+      "verified_facts": "Helpful Content launched August 2022; E-A-T became E-E-A-T in December 2022; March 2024 Core Update integrated Helpful Content into core ranking systems alongside scaled content abuse policies.",
+      "invisible_elite_impact": "Proved that generic agency blog slop harms domain-wide visibility, whereas authentic first-hand craft experience (the first 'E' in E-E-A-T) is the highest-value signal—if structured so machines can extract it.",
+      "mtm_application": "Forms the backbone of MTM's AGO Dominator (designing pages with extractable 60–90 word answer passages) and Credential Stack schema (#kareem-daniel and client E-E-A-T graphs).",
+      "source_url": "https://developers.google.com/search/blog/2022/08/helpful-content-update",
+      "source_label": "Google Search Central — August 2022 Helpful Content Update"
+    },
+    {
+      "id": "M-2022-PERPLEXITY",
+      "year": "2022",
+      "exact_date": "August 22, 2022 (Founded) / December 7, 2022 (Search Engine Launch)",
+      "title": "Perplexity AI Launch & The Answer-Engine Shift (MTM Stealth Ignition)",
+      "era_id": "ERA-4",
+      "origin_status": "Core Keep Milestone (Fact-Checked — MTM Origin Anchor)",
+      "evidence_class": "E4 - Multi-Source Historical Record + E1 MTM First-Party Provenance",
+      "category": "AI Answer Engine Inflection",
+      "focus": "Answer-first, citation-led conversational search replacing 10 blue links",
+      "technical_mechanism": "Combined real-time web retrieval (RAG) with Large Language Model synthesis to deliver a single coherent, footnoted answer instead of a list of ten hyperlinks.",
+      "verified_facts": "Founded August 22, 2022; main conversational answer engine launched December 7, 2022 (one week after ChatGPT's November 30, 2022 release).",
+      "invisible_elite_impact": "Introduced the 'Machine Leg' of the referral pipeline: affluent buyers began asking AI answer engines to vet and compare luxury service providers, silently bypassing any operator absent from the citation pool.",
+      "mtm_application": "The exact directional signal that initiated MT Media AI's 4-year stealth R&D phase (2022–2026)—studying SEO 2.0, AEO, and GEO before the 2026 hype wave.",
+      "source_url": "https://en.wikipedia.org/wiki/Perplexity_AI",
+      "source_label": "Wikipedia — Perplexity AI Founding & December 7, 2022 Launch"
+    },
+    {
+      "id": "M-2023-SGE",
+      "year": "2023–2024",
+      "exact_date": "May 10, 2023 (SGE Labs) / May 14, 2024 (AI Overviews US) / Oct 31, 2024 (ChatGPT Search) / Nov 25, 2024 (MCP)",
+      "title": "Google SGE → AI Overviews, ChatGPT Search & Model Context Protocol (MCP)",
+      "era_id": "ERA-4",
+      "origin_status": "Core Keep Milestone + Gap Analysis (May 2024 AIO, ChatGPT Search & MCP Added)",
+      "evidence_class": "E1/E4 - Official Google, OpenAI & Anthropic Documentation",
+      "category": "Generative SERP & Agent Protocol Foundation",
+      "focus": "Top-of-SERP generative AI synthesis, zero-click answer dominance, and open agent context protocols",
+      "technical_mechanism": "Google unveiled SGE at I/O on May 10, 2023 and rolled out AI Overviews to the U.S. public on May 14, 2024. OpenAI launched ChatGPT Search (OAI-SearchBot) on October 31, 2024, and Anthropic open-sourced the Model Context Protocol (MCP) on November 25, 2024.",
+      "verified_facts": "SGE launched May 10, 2023; AI Overviews launched May 14, 2024; ChatGPT Search launched October 31, 2024; MCP launched November 25, 2024.",
+      "invisible_elite_impact": "Pushed traditional organic blue links below the fold, accelerating zero-click behavior where ranking #4 on page one still results in zero visibility inside the synthesized AI snapshot.",
+      "mtm_application": "Validates the full MTM diagnostic equation: AI Invisibility + AI Erasure + AI Mode Exclusion = AI Brand Ignorance, and grounds MTM's local MCP server architecture.",
+      "source_url": "https://openai.com/index/introducing-chatgpt-search/",
+      "source_label": "OpenAI — Introducing ChatGPT Search (Oct 31, 2024)"
+    },
+    {
+      "id": "M-2025-AIMODE",
+      "year": "2025–Early 2026",
+      "exact_date": "April 9, 2025 (A2A) / May 2025 (AI Mode Rollout) / Jan 27, 2026 (Seamless AIO-to-AI Mode Flow)",
+      "title": "AI Mode Expansion, Deep Search Business Calling & Agent2Agent (A2A)",
+      "era_id": "ERA-5",
+      "origin_status": "Core Keep Milestone + Gap Analysis (A2A & Business Calling Added)",
+      "evidence_class": "E1 - Official Google Blog & Developer Documentation",
+      "category": "Conversational & Agentic Search Surface",
+      "focus": "Multi-step query fan-out, multimodal inputs, and automated business outreach",
+      "technical_mechanism": "AI Mode uses Gemini query fan-out—issuing multiple simultaneous sub-queries across web, Knowledge Graph, and Maps—to synthesize complex comparative answers, while Deep Search Calling enables Google to contact local businesses directly for pricing and availability.",
+      "verified_facts": "Google launched the Agent2Agent (A2A) protocol on April 9, 2025, expanded AI Mode throughout 2025, and connected AI Overviews directly into conversational AI Mode follow-ups on January 27, 2026.",
+      "invisible_elite_impact": "When a relocating executive asks an AI surface to compare custom homebuilders, pool architects, or private realtors, query fan-out checks entity credentials, review syntax, pricing ranges, and responsiveness simultaneously.",
+      "mtm_application": "Drives Stage 3 of the MTM Invisible Elite progression: Agent-Ready Concierge & Machine-Optimized Pricing Infrastructure (JSON-LD PriceSpecification).",
+      "source_url": "https://blog.google/products-and-platforms/products/search/ai-mode-ai-overviews-updates/",
+      "source_label": "Google Blog — Seamless AI Overviews & AI Mode Experience (Jan 27, 2026)"
+    },
+    {
+      "id": "M-2026-IO",
+      "year": "2026",
+      "exact_date": "May 19, 2026",
+      "title": "Google I/O 2026: The Agentic Search Era, WebMCP & 2.5B+ Scale",
+      "era_id": "ERA-5",
+      "origin_status": "Core Keep Milestone (Fact-Checked against May 19, 2026 Keynote & Chrome Blog)",
+      "evidence_class": "E1 - Official Google I/O 2026 Keynote & Chrome Developer Documentation",
+      "category": "Agentic Search Era Inflection",
+      "focus": "Explicit Agentic Search Era: continuous AI Overviews + AI Mode flows, Information Agents, WebMCP, and Gemini 3.5 Flash / Antigravity integration",
+      "technical_mechanism": "AI Overviews reached 2.5B+ monthly users and AI Mode crossed 1B+ users. Chrome introduced WebMCP (Web Model Context Protocol), allowing websites to expose structured, callable tools directly to browser-based AI agents alongside modern agent-friendly web guidance.",
+      "verified_facts": "Announced May 19, 2026 at Google I/O by Sundar Pichai and the Chrome/Search teams. Confirmed 2.5 billion+ monthly active users for AI Overviews and 1 billion+ users for AI Mode.",
+      "invisible_elite_impact": "The point of no return for referral-dependent titans: discovery shifted from 'Who is listed?' to 'Who does the machine verify, interact with via WebMCP, and recommend?'",
+      "mtm_application": "The catalyst that pulled MT Media AI out of 4+ years of stealth mode to open The Palace (mtmediaai.com), release Episode 1 ('The Mirror'), and deploy the I³ System™.",
+      "source_url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
+      "source_label": "Google Blog — Sundar Pichai I/O 2026 Keynote: Welcome to the Agentic Gemini Era"
+    },
+    {
+      "id": "M-2026-ARGON",
+      "year": "2026 (Q3–Q4)",
+      "exact_date": "July 2026 (Perplexity Trust Badges) / October 13–14, 2026 (Gemini 4 Argon Launch)",
+      "title": "Perplexity Source Trust Badges & Gemini 4 Argon Frontier Reasoning",
+      "era_id": "ERA-5",
+      "origin_status": "Gap Analysis Addition (Current October 2026 Frontier Capability)",
+      "evidence_class": "E1/E5 - Official Google DeepMind / AI Studio Release & Platform Observation",
+      "category": "Frontier Reasoning & Source Verification",
+      "focus": "Explicit source credibility labeling (Trusted/Credible/Authoritative) and 1M-token deep verification reasoning (Gemini 4 Argon)",
+      "technical_mechanism": "Perplexity introduced explicit multi-stage source trust badges in late July 2026. On October 13, 2026, Google launched Gemini 4 Argon (gemini-4-argon) in the Gemini API, AI Studio, and Google Antigravity—unifying input, deep reasoning, and output in a 1M-token context window with autonomous verification harnesses and 3D/spatial code synthesis.",
+      "verified_facts": "Gemini 4 Argon officially launched October 13–14, 2026 with a 1M-token context window and deep verification capabilities across coding, finance, legal, cybersecurity, and science.",
+      "invisible_elite_impact": "Frontier models with 1M-token reasoning windows no longer skim surface keywords—they cross-reference entire repositories, PDFs, state filings, CAD records, and schema graphs in a single pass, rewarding deep, contradiction-free entity ecosystems.",
+      "mtm_application": "Powers MTM's Two-Layer Repo Architecture (mtm-ai public knowledge graph + mtm-forge-internal) and elevates interactive Palace and I³ diagnostic builds.",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "source_label": "Google Blog — Introducing Gemini 4 Argon (Oct 13, 2026)"
+    },
+    {
+      "id": "M-2027-HORIZON",
+      "year": "2027–2030+",
+      "exact_date": "2027–2030 Strategic Horizon (Watchlist)",
+      "title": "Zero-UI Agent-to-Agent (A2A) Commerce & Spatial Telemetry Networks",
+      "era_id": "ERA-6",
+      "origin_status": "Gap Analysis Future Projection (Explicitly Labeled Watchlist per Nina Filter)",
+      "evidence_class": "Hypothesis / Watchlist Projection (Grounded in 2025–2026 MCP, A2A & WebMCP Standards)",
+      "category": "Future Horizon (Watchlist)",
+      "focus": "Autonomous B2B/B2C agent negotiation, cryptographic entity provenance, and real-time geospatial intelligence",
+      "technical_mechanism": "Personal buyer agents query merchant WebMCP/A2A endpoints directly to verify license standing, S2 micro-cell service coverage, pricing ranges (PriceSpecification), and real-time calendar availability before presenting a single vetted recommendation to the human principal.",
+      "verified_facts": "Note: Explicitly classified as a forward-looking strategic projection based on live 2025–2026 protocols (Anthropic MCP, Google A2A, Chrome WebMCP, and Deep Search Calling)—not a guaranteed platform schedule.",
+      "invisible_elite_impact": "In an agent-to-agent economy, businesses without machine-queryable endpoints and pre-verified territorial graphs cannot enter the negotiation loop of UHNW family offices and relocating executives.",
+      "mtm_application": "The long-term design target of The Invisible Elite Ark Network (5-Seat Celestial Pentad per ZIP code) and ASIS spatial intelligence.",
+      "source_url": "https://developer.chrome.com/blog/chrome-at-io26",
+      "source_label": "Chrome Developer Blog — WebMCP & Powering the Agentic Web"
+    }
+  ],
+  "gap_analysis": [
+    {
+      "gap_id": "GAP-01",
+      "missing_in_original_note": "Pre-1998 Analog Baseline (White Pages & Yellow Pages)",
+      "why_critical": "Episode 1 ('The Mirror') depends on the emotional and historical bridge connecting heavy physical phone books to 10 blue links and Agentic Search.",
+      "remediation": "Added Era 0 (Pre-1995 Nostalgia Prologue) to anchor 'The Mirror' closed-loop thesis: 'Who is listed?' -> 'Who ranks?' -> 'Who does the machine recommend?'"
+    },
+    {
+      "gap_id": "GAP-02",
+      "missing_in_original_note": "1998–2011 10-Year Void (Florida 2003, Universal Search 2007, Caffeine 2010)",
+      "why_critical": "Jumping directly from 2001 to 2011 omits Universal Search (May 2007)—which introduced Local/Maps packs—and Caffeine (June 2010), which enabled real-time indexing.",
+      "remediation": "Added M-2003 milestone cluster covering Florida, Universal Search, and Caffeine with official Google Search Central citations."
+    },
+    {
+      "gap_id": "GAP-03",
+      "missing_in_original_note": "Google Knowledge Graph (May 16, 2012)",
+      "why_critical": "MTM's entire I³ System™ is built on Entity SEO ('Things, not strings'). Omitting the May 2012 launch of the Google Knowledge Graph leaves out the birth of entity resolution.",
+      "remediation": "Added dedicated M-2012-KG milestone connecting Google's Knowledge Graph to MTM's @graph and Entity Clarity architecture."
+    },
+    {
+      "gap_id": "GAP-04",
+      "missing_in_original_note": "Local & Geospatial Algorithm Milestones (Venice 2012, Pigeon 2014, Possum 2016)",
+      "why_critical": "The Invisible Elite are predominantly high-ticket local/regional operators (custom builders, luxury realtors, exotic auto, estate architects). Their visibility is governed by local pack & S2 cell algorithms.",
+      "remediation": "Integrated Venice, Pigeon, and Possum into Eras 2 and 3, linking them directly to MTM's 3.2-Mile Proximity Cliff and S2 Cell doctrine."
+    },
+    {
+      "gap_id": "GAP-05",
+      "missing_in_original_note": "Sub-Page Extraction & Multimodal Precursors (Passage Ranking Feb 2021 & MUM May 2021)",
+      "why_critical": "Between BERT (2019) and Helpful Content (2022), Passage Ranking and MUM established the sub-document extraction and multimodal capabilities that power AI Overviews and AGO.",
+      "remediation": "Added Passage Ranking (Feb 2021) and MUM (May 2021) plus the March 2024 Core Update integration of the Helpful Content system."
+    },
+    {
+      "gap_id": "GAP-06",
+      "missing_in_original_note": "Multi-Platform AI Search & Agent Protocols (AI Overviews May 2024, ChatGPT Search Oct 2024, MCP Nov 2024, A2A Apr 2025)",
+      "why_critical": "Jumping from 2023 SGE Labs to 2025 AI Mode skips the May 14, 2024 public launch of AI Overviews, OpenAI's ChatGPT Search (OAI-SearchBot), and Anthropic's Model Context Protocol (MCP).",
+      "remediation": "Added verified dates and technical mechanisms for May 2024 AI Overviews, ChatGPT Search, MCP, and Google A2A."
+    },
+    {
+      "gap_id": "GAP-07",
+      "missing_in_original_note": "Late 2026 Frontier Reasoning (Perplexity Trust Badges July 2026 & Gemini 4 Argon Oct 13, 2026) + 2027–2030 Watchlist",
+      "why_critical": "Brings the timeline strictly current to October 15, 2026 (including Gemini 4 Argon's 1M-token verification reasoning and Perplexity's source badges) and separates 2027–2030 projections into a Nina-compliant Watchlist.",
+      "remediation": "Added M-2026-ARGON and M-2027-HORIZON with strict separation between verified historical facts and strategic projections."
+    }
+  ],
+  "faq": [
+    {
+      "@type": "Question",
+      "name": "Why does MT Media AI talk about SEO 2.0, AEO, and GEO instead of saying 'SEO is dead'?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Search is not dead; discovery is evolving. Since late 2022—when Perplexity AI demonstrated citation-led answer synthesis—the market has used overlapping terms including SEO 2.0, AEO (Answer Engine Optimization), and GEO (Generative Engine Optimization) to describe the shift from ten blue links to synthesized answers and agentic workflows. However, Google's own documentation confirms that AI Overviews and AI Mode still rely on foundational Search eligibility, crawlability, structured data accuracy, and people-first E-E-A-T signals. MT Media AI treats SEO fundamentals as the structural floor and builds Invisible Infrastructure Intelligence (I³) on top of that floor so established businesses are discoverable across both traditional search and AI answer engines."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is BERT (2019) included in the Search Evolution Timeline if it was not a penalty update like Panda or Penguin?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Panda (2011) and Penguin (2012) were quality and anti-spam filtering systems, whereas BERT (October 2019) was a foundational Transformer modeling breakthrough. By enabling bidirectional contextual understanding—evaluating how every word in a query relates to every other word simultaneously—BERT served as the direct architectural precursor to modern Large Language Model (LLM) retrieval, MUM, AI Overviews, and AI Mode."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is AI Brand Ignorance and how does it affect the Invisible Elite?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AI Brand Ignorance is the condition in which a business with an exceptional real-world reputation is overlooked, misattributed, or omitted by AI search and recommendation systems because its expertise has not been translated into machine-readable entity signals, Schema.org graphs, and corroborated third-party proof. Expressed as AI Invisibility + AI Erasure + AI Mode Exclusion = AI Brand Ignorance, it causes referral-built service leaders (The Invisible Elite) to quietly lose high-intent inquiries when prospective buyers use AI assistants to vet referrals or compare local specialists."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What changed at Google I/O on May 19, 2026, and with Gemini 4 Argon in October 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "On May 19, 2026, Google announced that AI Overviews had surpassed 2.5 billion monthly users and AI Mode had crossed 1 billion users, uniting both into continuous conversational flows while introducing WebMCP in Chrome so websites can expose structured toolkits directly to AI agents. On October 13, 2026, Google released Gemini 4 Argon with a 1M-token unified reasoning window capable of cross-referencing multi-format repositories and running verification harnesses—making coherent, contradiction-free entity infrastructure essential for enterprise discoverability."
+      }
+    }
+  ]
+}
